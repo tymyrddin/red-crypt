@@ -26,8 +26,8 @@ to the adversary) by impersonating Nina. The malicious user can also send a mess
 
 Mitigation involves implementing the key confirmation phase after the key exchanges (the message exchanging session 
 does not start if the two parties do not correctly share their secret values) and guaranteeing the integrity of 
-associated data (even if a malicious key exchange succeeds, the adversary is not able to change sender key ID and 
-recipient key ID).
+associated data (even if a malicious key exchange succeeds, the adversary is not able to change `sender key ID` and 
+`recipient key ID`).
 
 This attack does not work in Signal because the computation of a shared secret in the key exchange phase involves 
 `One-Time Pre Key`. This changes the shared secret at every execution of the key exchange even if the public keys 
