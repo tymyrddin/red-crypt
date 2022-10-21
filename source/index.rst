@@ -25,6 +25,17 @@ drive or laptop.
    docs/attacks/pgp.md
 
 .. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Prevention
+
+   docs/prevent/README.md
+   docs/prevent/transit.md
+   docs/prevent/rest.md
+   docs/prevent/use.md
+
+.. toctree::
    :caption: Links
 
    Red Team <https://tymyrddin.github.io/red/>
