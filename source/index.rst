@@ -5,9 +5,9 @@ Many people assume that when information is not being transmitted, it is safe. B
 identifiable information, many variables must be considered, including the state the data is in:
 at rest, in transit, or in use.
 
-Data at rest is more valuable than data in transit because it often has a higher level of sensitive information.
-And just because data is at rest does not mean it is not moving. Many data breaches happen due to a lost USB
-drive or laptop.
+While data in transit is easier to hack, data at rest is more valuable than data in transit because it often has a
+higher level of sensitive information. And just because data is at rest does not mean it is not moving. Many data
+breaches happen due to a lost USB drive or laptop.
 
 .. toctree::
    :glob:
