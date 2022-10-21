@@ -1,4 +1,4 @@
-# Side-channel attack
+# Side-channel
 
 ## Attack tree
 
@@ -18,11 +18,13 @@
 
 ## Notes
 
-A side-channel attack (SCA) is a security exploit that involves collecting information about what a computing device does when it is performing cryptographic operations.
+A side-channel attack (SCA) is a security exploit that involves collecting information about what a computing device 
+does when it is performing cryptographic operations.
 
 ## Mitigation
 
 ### Development
+
 * Randomise the order of operations on data within the system to make it more difficult for an adversary.
 * Increase the amount of noise in a channel.
 

@@ -1,4 +1,4 @@
-# Chosen ciphertext attack
+# Chosen ciphertext
 
 ## Attack tree
 

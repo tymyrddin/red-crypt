@@ -1,4 +1,4 @@
-# Chosen plaintext attack
+# Chosen plaintext
 
 ## Attack tree
 
@@ -20,6 +20,8 @@ In a chosen-plaintext attack an adversary can (possibly adaptively) ask for the 
 A cryptographic oracle is a mathematical description of a data leak, to be used in security proofs. Given access to such an oracle, it is possible to rebuild the private key. For example, in the old (1999) case of RSA, it meant that knowing whether a value has a proper padding or not is equivalent to learning the private key (after a million or so tries). The Bleichenbacher attack showed that it also works the other way round.
 
 In cryptographic papers oracles are often used to show that, even if adversaries would have access to an oracle, they still wouldn't have any (significant) advantage for breaking security. For example, one important property of encryption algorithms (called resistance to known plaintext attacks) is that if an attacker is given a message encrypted with a key m' and they want to know the original message m (or figure out the key), then giving them another message n and its encryption with a key n' should not help them do so.
+
+A well-known example of this type of attack is the differential cryptanalysis performed on block ciphers.
 
 ## Articles
 

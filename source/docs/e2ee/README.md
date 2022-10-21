@@ -13,11 +13,7 @@ In this situation, the data and the communication remain intact and are not tamp
 
 ## How?
 
-* [Brute force](brute-force.md)
-* [Ciphertext only](ciphertext-only.md)
-* [Chosen plaintext](plaintext.md)
-* [Chosen ciphertext](ciphertext.md)
-* [Known plaintext](known-plaintext.md)
-* [Key and algorithm](algorithm.md)
-* [Side-channel](side-channel.md)
-* [Physical](physical.md)
+* [Unknown key share attack](unknown-key.md)
+* [Forgery attack](forgery.md)
+* [Impersonation attack (Group message)](group-impersonation.md)
+
