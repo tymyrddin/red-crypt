@@ -52,7 +52,7 @@ drive or laptop.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Prevention
+   :caption: Shift left
 
    docs/prevent/README.md
    docs/prevent/transit.md
