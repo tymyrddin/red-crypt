@@ -1,4 +1,4 @@
-# In transit
+# Data in transit
 
 * Network security tools like firewalls and authentication are simple and often effective defences against 
 malicious attacks and intrusions.

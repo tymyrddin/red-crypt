@@ -13,7 +13,7 @@ damage control.
 
 ## How?
 
-* [In transit](transit.md)
-* [At rest](rest.md)
-* [In use](use.md)
+* [Data in transit](transit.md)
+* [Data at rest](rest.md)
+* [Data in use](use.md)
 

@@ -1,4 +1,4 @@
-# At rest
+# Data at rest
 
 * Full disk encryption ensures malicious users cannot access the data on a lost drive without the necessary logins.
 * In addition to protecting data in transit, DLP solutions can search for and locate sensitive data on networks and 

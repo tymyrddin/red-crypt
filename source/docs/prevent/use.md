@@ -1,4 +1,4 @@
-# In use
+# Data in use
 
 * Put protections for data in use before anyone can access the information. Once a sensitive document has been 
 compromised, there is no way to control what an adversary does with the data.
