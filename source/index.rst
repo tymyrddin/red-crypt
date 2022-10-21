@@ -6,25 +6,23 @@ identifiable information, many variables must be considered, including the state
 at rest, in transit, or in use.
 
 Data at rest is more valuable than data in transit because it often has a higher level of sensitive information.
-And just because data is at rest doesn not mean it is not moving. Many data breaches happen due to a lost USB
+And just because data is at rest does not mean it is not moving. Many data breaches happen due to a lost USB
 drive or laptop.
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: In transit
+   :caption: Attacks
 
-   docs/transit/README.md
-   docs/transit/*
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: At rest
-
-   docs/rest/README.md
+   docs/attacks/README.md
+   docs/attacks/plaintext.md
+   docs/attacks/ciphertext.md
+   docs/attacks/unknown-key.md
+   docs/attacks/forgery.md
+   docs/attacks/group-impersonation.md
+   docs/attacks/side-channel.md
+   docs/attacks/pgp.md
 
 .. toctree::
    :caption: Links
