@@ -29,4 +29,5 @@ This project welcomes contributions and suggestions.
 [Open an issue here](https://github.com/tymyrddin/red-crypt/issues)
 
 ## Mind
-Where you stand depends on where you sit, and all threats are cross-vector threats. Without a clear mandate for testing, measuring and reporting actual improvements in security, attempts at improving security makes absolutely no sense, not even for the low-hanging fruit.  
+
+"I daresay," said Granny, pushing the Fool aside and stepping over a writhing taproot. "If anyone locked me in a dungeon, there'd be screams." ~TP
