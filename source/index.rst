@@ -62,4 +62,4 @@ breaches happen due to a lost USB drive or laptop.
 .. toctree::
    :caption: Links
 
-   Red Team <https://tymyrddin.github.io/red/>
+   Red Team <https://red.tymyrddin.dev/>
