@@ -63,3 +63,8 @@ breaches happen due to a lost USB drive or laptop.
    :caption: Links
 
    Red Team <https://red.tymyrddin.dev/>
+
+----
+
+.. image:: _static/images/crypto-dictionary.png
+  :alt: Useful books
