@@ -9,6 +9,8 @@ While data in transit is easier to hack, data at rest is more valuable than data
 higher level of sensitive information. And just because data is at rest does not mean it is not moving. Many data
 breaches happen due to a lost USB drive or laptop.
 
+----
+
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -58,11 +60,6 @@ breaches happen due to a lost USB drive or laptop.
    docs/prevent/transit.md
    docs/prevent/rest.md
    docs/prevent/use.md
-
-.. toctree::
-   :caption: Links
-
-   Red Team <https://red.tymyrddin.dev/>
 
 ----
 
