@@ -16,3 +16,6 @@ Hone cryptography skills.
 * [Message Digest 5](md5.md)
 * [NT Hash](nt.md)
 * [SHA-2 Hash](sha2.md)
+* [Shift cipher](caesar.md)
+* [CISCO Salted Password](cisco.md)
+* [Pixel madness](pixels.md)

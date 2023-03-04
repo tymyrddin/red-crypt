@@ -78,6 +78,9 @@ breaches happen due to a lost USB drive or laptop.
    docs/analysis/md5.md
    docs/analysis/nt.md
    docs/analysis/sha2.md
+   docs/analysis/caesar.md
+   docs/analysis/cisco.md
+   docs/analysis/pixels.md
 
 ----
 

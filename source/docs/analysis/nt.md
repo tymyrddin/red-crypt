@@ -1,6 +1,6 @@
 # NT Hash
 
-This is the way passwords are stored on modern Windows systems. They can be obtained by dumping the SAM database, or using Mimikatz. They are also stored on domain controllers in the NTDS file. These are the hashes that can be used to pass-the-hash.
+This is the way passwords are stored on modern Windows systems. They can be obtained by dumping the SAM database, or using Mimikatz. They are also stored on domain controllers in the NTDS file. These are the hashes that can be used to [pass-the-hash](red-ad:docs/pivot/auth).
 
 [Retrieve the password of the Administrator user from the information output by the secretsdump tool of the Impacket suite](https://www.root-me.org/en/Challenges/Cryptanalysis/Hash-NT).
 
