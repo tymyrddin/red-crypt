@@ -63,5 +63,23 @@ breaches happen due to a lost USB drive or laptop.
 
 ----
 
+.. image:: _static/images/ctf.png
+  :alt: CTFs and challenges
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Cryptanalysis
+
+   docs/analysis/README.md
+   docs/analysis/dcc.md
+   docs/analysis/dcc2.md
+   docs/analysis/lm.md
+   docs/analysis/md5.md
+   docs/analysis/nt.md
+   docs/analysis/sha2.md
+
+----
+
 .. image:: _static/images/crypto-dictionary.png
   :alt: Useful books
