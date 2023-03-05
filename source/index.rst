@@ -9,6 +9,9 @@ While data in transit is easier to hack, data at rest is more valuable than data
 higher level of sensitive information. And just because data is at rest does not mean it is not moving. Many data
 breaches happen due to a lost USB drive or laptop.
 
+.. image:: _static/images/in-progress.png
+  :alt: In progress ...
+
 ----
 
 .. toctree::
@@ -17,49 +20,15 @@ breaches happen due to a lost USB drive or laptop.
    :includehidden:
    :caption: Notes on techniques
 
-   docs/attacks/README.md
-   docs/attacks/brute-force.md
-   docs/attacks/ciphertext-only.md
-   docs/attacks/plaintext.md
-   docs/attacks/ciphertext.md
-   docs/attacks/known-plaintext.md
-   docs/attacks/algorithm.md
-   docs/attacks/side-channel.md
-   docs/attacks/physical.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: E2EE messaging
-
-   docs/e2ee/README.md
-   docs/e2ee/unknown-key.md
-   docs/e2ee/forgery.md
-   docs/e2ee/group-impersonation.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Email
-
-   docs/email/README.md
-   docs/email/decrypt.md
-   docs/email/other.md
-   docs/email/recipient.md
-   docs/email/private.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Shift left
-
-   docs/prevent/README.md
-   docs/prevent/transit.md
-   docs/prevent/rest.md
-   docs/prevent/use.md
+   docs/notes/README.md
+   docs/notes/brute-force.md
+   docs/notes/ciphertext-only.md
+   docs/notes/plaintext.md
+   docs/notes/ciphertext.md
+   docs/notes/known-plaintext.md
+   docs/notes/algorithm.md
+   docs/notes/side-channel.md
+   docs/notes/physical.md
 
 ----
 
@@ -69,20 +38,89 @@ breaches happen due to a lost USB drive or laptop.
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Cryptanalysis
+   :caption: Ciphers
 
-   docs/analysis/README.md
-   docs/analysis/dcc.md
-   docs/analysis/dcc2.md
-   docs/analysis/lm.md
-   docs/analysis/md5.md
-   docs/analysis/nt.md
-   docs/analysis/sha2.md
-   docs/analysis/caesar.md
-   docs/analysis/cisco.md
-   docs/analysis/pixels.md
+   docs/ciphers/README.md
+   docs/ciphers/caesar.md
+   docs/ciphers/vigenere.md
+   docs/ciphers/rail-fence.md
+   docs/ciphers/polybe.md
+   docs/ciphers/enigma.md
+   docs/ciphers/otp.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Hashing
+
+   docs/hashes/README.md
+   docs/hashes/dcc.md
+   docs/hashes/dcc2.md
+   docs/hashes/lm.md
+   docs/hashes/md5.md
+   docs/hashes/nt.md
+   docs/hashes/sha2.md
+   docs/hashes/cisco.md
+   docs/hashes/sha3.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Symmetric encryption
+
+   docs/symmetric/README.md
+   docs/symmetric/ecb.md
+   docs/symmetric/cbc-bit-flipping.md
+   docs/symmetric/4-rounds.md
+   docs/symmetric/ctr.md
+   docs/symmetric/fault1.md
+   docs/symmetric/cbc-padding.md
+   docs/symmetric/cpa.md
+   docs/symmetric/sc-first-round.md
+   docs/symmetric/weaker-variant.md
+   docs/symmetric/fault2.md
+   docs/symmetric/pmac.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Asymmetric encryption
+
+   docs/asymmetric/README.md
+   docs/asymmetric/factorisation.md
+   docs/asymmetric/oracle.md
+   docs/asymmetric/corrupted-key1.md
+   docs/asymmetric/fractions.md
+   docs/asymmetric/modulus.md
+   docs/asymmetric/padding.md
+   docs/asymmetric/signature.md
+   docs/asymmetric/corrupted-key2.md
+   docs/asymmetric/corrupted-key3.md
+   docs/asymmetric/multiple-recipients.md
+   docs/asymmetric/lee-cooper.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Key Exchange
+
+   docs/exchange/README.md
+   docs/exchange/ecdhe.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Signatures
+
+   docs/signatures/README.md
+   docs/signatures/ecdsa-conventional.md
+   docs/signatures/ecdsa-error.md
 
 ----
 
-.. image:: _static/images/crypto-dictionary.png
+.. image:: _static/images/books.png
   :alt: Useful books
