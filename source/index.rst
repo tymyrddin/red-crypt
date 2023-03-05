@@ -15,7 +15,7 @@ breaches happen due to a lost USB drive or laptop.
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Attack classification
+   :caption: Notes on techniques
 
    docs/attacks/README.md
    docs/attacks/brute-force.md

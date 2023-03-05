@@ -1,4 +1,4 @@
-# Chosen plaintext
+# Chosen plaintext attack
 
 In a chosen-plaintext attack (CPA), an adversary can (possibly adaptively) ask for the ciphertexts of arbitrary 
 plaintext messages. This is formalised by allowing the adversary to interact with an encryption oracle, viewed as 
