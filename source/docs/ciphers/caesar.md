@@ -35,12 +35,6 @@ dix onze douze
 elles seront toutes rouges
 ```
 
-Result:
-
-```text
-ujqcsddessxsffes
-```
-
 ## Resources
 
 * [Le code de César](https://www.root-me.org/spip.php?article82)

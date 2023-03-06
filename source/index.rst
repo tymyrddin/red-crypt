@@ -1,13 +1,7 @@
 Beyond the visible
 ==============================================
 
-Many people assume that when information is not being transmitted, it is safe. But to effectively encrypt personally
-identifiable information, many variables must be considered, including the state the data is in:
-at rest, in transit, or in use.
-
-While data in transit is easier to hack, data at rest is more valuable than data in transit because it often has a
-higher level of sensitive information. And just because data is at rest does not mean it is not moving. Many data
-breaches happen due to a lost USB drive or laptop.
+Come backstage to discover what is usually not seen concerning encoded and encrypted data in rest, underway, and in use. Witness the strategic decisions, the designing of algorithms, the complex implementations, the innovative (yet old and not really changing) technological solutions, the endless resources invested into research and development of security and privacy ... and everything that isn't, and everything that is, but gets hacked.
 
 .. image:: _static/images/in-progress.png
   :alt: In progress ...
@@ -100,6 +94,18 @@ breaches happen due to a lost USB drive or laptop.
    docs/asymmetric/corrupted-key3.md
    docs/asymmetric/multiple-recipients.md
    docs/asymmetric/lee-cooper.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Data
+
+   docs/data/README.md
+   docs/data/elf64-pid.md
+   docs/data/pkzip.md
+   docs/data/bmp-xor.md
+   docs/data/insecure-storage1.md
+   docs/data/android-lock.md
 
 .. toctree::
    :glob:
