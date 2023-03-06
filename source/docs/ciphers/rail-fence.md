@@ -6,7 +6,7 @@
 
 Transposition ciphers provide yet another avenue for encryption. The simplest implementation of a transposition cipher is to reverse the plaintext.
 
-## Rail Fence cipher
+## Rail fence cipher
 
 The rail fence cipher may be the most widely known transposition cipher. You encrypt the message by alternating each letter on a different row.
 
@@ -21,6 +21,11 @@ A t c a d w
  t a k t a n
 ```
 
-## Resources
+## Solution
 
-* [DCode: Rail Fence (Zig-Zag) Cipher](https://www.dcode.fr/rail-fence-cipher)
+Using [DCode: Rail Fence (Zig-Zag) Cipher](https://www.dcode.fr/rail-fence-cipher):
+
+```text
+Will·invade·Kentucky·on·October·the·eighth.·signal·is·"Frozen·chicken"
+```
+

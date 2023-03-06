@@ -1,4 +1,4 @@
-# Enigma Machine
+# Enigma machine
 
 [RootMe Challenge: Enigma Machine](https://www.root-me.org/en/Challenges/Cryptanalysis/Enigma-Machine): 
 
@@ -23,7 +23,7 @@ The password is in UPPERCASE.
 
 ## Enigma
 
-Contrary to popular misconceptions, the Enigma is not a single machine, but rather a family of machines. The ﬁrst version was invented by German engineer Arthur Scherbius toward the end of World War I. It was also used by several militaries, not just the Nazi Germans. 
+Contrary to popular misconceptions, the Enigma is not a single machine, but rather a family of machines. The first version was invented by German engineer Arthur Scherbius toward the end of World War I. It was also used by several militaries, not just the Nazi Germans. 
 
 Some military texts encrypted using a version of Enigma were broken by Polish cryptanalysts: Marrian Rejewsky, Jerzy Rozycki, and Henry Zygalski. The three basically reverse engineered a working Enigma machine. The team then developed tools for breaking Enigma ciphers, including one tool named the cryptologic bomb.
 
@@ -31,14 +31,14 @@ The core of the Enigma machine was the rotors. These were disks that were arrang
 
 There were several Enigma models:
 
-* Enigma A, the ﬁrst public Enigma
+* Enigma A, the first public Enigma
 * Enigma B
 * Enigma C
-* Enigma B, used by United Kingdom, Japan, Sweden, and others
+* Enigma B, used by the United Kingdom, Japan, Sweden, and others
 * Navy Cipher D used by the Italian Navy
 * Funkschlüssel C, used by the German navy beginning in 1926
 * Enigma G used by the German Army
-* Wehrmacht Enigma I, a modiﬁcation to the Enigma G. Used extensively by the
+* Wehrmacht Enigma I, a modification of the Enigma G. Used extensively by the
 German Military
 * M3, an improved Enigma introduced in 1930 for the German military
 

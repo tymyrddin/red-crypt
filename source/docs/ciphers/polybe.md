@@ -31,3 +31,33 @@ for line in open('ch12.txt'):
     print(line)
 ```
 
+Result:
+
+```text
+ces grands ouvrages compares au corps humain semblent
+
+solides consideres selon les lois de cette nature qui detruit
+
+[...]
+
+ voila telles que je les ai pu rediger les reflexions d un
+
+esprit des longtemps affaisse et appesanti par la disgrace si
+
+elles vous semblent audessous de votre genie ou peu propres
+
+a guerir vos douleurs songea5 combien l homme qu enlacent
+
+et absorbent ses propres maux manque de loisir pour
+
+consoler autrui et que les termes de notre idiome viennent
+
+difficilement au banni entoure de barbares dont le langage
+
+discordant choquant meme pour des barbares un peu civilises
+
+fremit incessamment a son oreille
+
+pass / mot de passe : cpaaourbxpjpgfo
+```
+

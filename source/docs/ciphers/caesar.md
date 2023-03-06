@@ -19,8 +19,29 @@ Although the Caesar cipher is not useful for modern cryptographic needs, it does
 
 This is, essentially, the same structure used by all modern symmetric algorithms. Because there are only 26 letters in the English alphabet, the key space is 26 (in English).
 
+## Solution
+
+I used [DCode: Caesar](https://www.dcode.fr/caesar-cipher) to first shift with 1 for the first word, shift with 2 to get the second word, 3 for the third word, etc. 
+Oh, and the poem is in French, of course, which made it a bit harder:
+
+```text
+un deux trois
+j'irai dans les bois
+quatre cing six
+cueillir des cerises
+sept huit neuf
+dans un panier neuf
+dix onze douze
+elles seront toutes rouges
+```
+
+Result:
+
+```text
+ujqcsddessxsffes
+```
+
 ## Resources
 
 * [Le code de César](https://www.root-me.org/spip.php?article82)
 * [Le chiffrement par décalage](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/FR%20-%20Le%20chiffrement%20par%20d%C3%A9calage.pdf)
-* [DCode: Caesar Cipher](https://www.dcode.fr/caesar-cipher)
