@@ -13,7 +13,7 @@ When using cipher block chaining (CBC) mode, each block of plaintext is XOR’d 
 
 ![CBC Encryption](../../_static/images/cbc-encryption.png)
 
-The only issue with CBC is the ﬁrst block. There is no preceding block of ciphertext to XOR the ﬁrst plaintext block with. It is common to add an initialization vector to the ﬁrst block so that it has something to be XOR’d with. The initialization vector is basically a pseudorandom number, much like the cipher key. Usually, an IV is only used once and is thus called a nonce (Number Only used Once). 
+The only issue with CBC is the first block. There is no preceding block of ciphertext to XOR the first plaintext block with. It is common to add an initialization vector (IV) to the first block so that it has something to be XOR'd with. The initialization vector is a pseudorandom number, much like the cipher key. Usually, an IV is only used once, a $nonce$ (Number Only used Once). 
 
 The decryption process in CBC mode is done as:
 
