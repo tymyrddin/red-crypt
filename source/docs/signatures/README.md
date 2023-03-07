@@ -19,6 +19,6 @@ ECDSA, like DSA, does not come with a zero-knowledge proof, while Schnorr signat
 
 ## How?
 
-* [ECDSA: Conventional attack](ecdsa-conventional.md)
-* [ECDSA: Implementation error](ecdsa-error.md)
+- [ ] [ECDSA: Conventional attack](ecdsa-conventional.md)
+- [ ] [ECDSA: Implementation error](ecdsa-error.md)
 

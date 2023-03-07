@@ -83,3 +83,10 @@ intersphinx_mapping = {
     "red-ad": ("https://red.tymyrddin.dev/projects/ad/en/latest/", None),
 }
 myst_url_schemes = ["http", "https", ]
+
+myst_enable_extensions = [
+    "amsmath",
+    "dollarmath",
+    "tasklist",
+]
+

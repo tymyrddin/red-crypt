@@ -12,6 +12,15 @@ Perhaps the most widely known multi-alphabet cipher is the Vigenère cipher. Thi
 
 For many years, Vigenère was considered very strong, even unbreakable. In the nineteenth century, Friedrich Kasiski published a technique for breaking the Vigenère cipher.
 
+## Math
+
+The math for Vigenère looks very similar to that of Caesar, with one important difference: the value $K$ changes:
+
+\begin{align} C_i\equiv P_i \oplus K_i\mod(26) \end{align}
+
+The $i$ denotes the current key with the current letter of plaintext and the current letter
+of ciphertext. Many sources use $M$ (for message) rather than $P$ (for plaintext) in this notation. 
+
 ## Solution
 
 [DCode](https://www.dcode.fr/vigenere-cipher) tells me the **Key/Password** is `THEMENTOR`. Using that I got a halfway readable text. Obviously the latter part has another **Key/Password**. Not needed, I recognise the text.

@@ -12,8 +12,8 @@ While data in transit is easier to hack, data at rest is more valuable than data
 
 ## How?
 
-* [ELF64 PID encryption](elf64-pid.md)
-* [Protected PKZIP file](pkzip.md)
-* [Known plaintext XOR](bmp-xor.md)
-* [File: Insecure storage Mozilla Firefox 14](insecure-storage1.md)
-* [Android lock pattern](android-lock.md)
+- [x] [ELF64 PID encryption](elf64-pid.md)
+- [x] [Protected PKZIP file](pkzip.md)
+- [x] [Known plaintext XOR](bmp-xor.md)
+- [x] [File: Insecure storage Mozilla Firefox 14](insecure-storage1.md)
+- [x] [Android lock pattern](android-lock.md)

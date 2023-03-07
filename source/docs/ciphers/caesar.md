@@ -19,6 +19,14 @@ Although the Caesar cipher is not useful for modern cryptographic needs, it does
 
 This is, essentially, the same structure used by all modern symmetric algorithms. Because there are only 26 letters in the English alphabet, the key space is 26 (in English).
 
+## Math
+
+\begin{align} C\equiv P \oplus K\mod(26) \end{align}
+
+The mathematical representation of Caesar’s method of shifting three to the right is:
+
+\begin{align} C\equiv P \oplus 3\mod(26) \end{align}
+
 ## Solution
 
 I used [DCode: Caesar](https://www.dcode.fr/caesar-cipher) to first shift with 1 for the first word, shift with 2 to get the second word, 3 for the third word, etc. 
