@@ -2,7 +2,7 @@
 
 [RootMe Challenge: Monoalphabetic substitution - Polybe](https://www.root-me.org/en/Challenges/Cryptanalysis/Monoalphabetic-substitution-Polybe): A strange person contact you after purchasing a parchment of weird origin ... He is counting on your quick wit to decrypt this message! You will need to deploy all your cryptanalyses faculties.
 
-Script: [Polybe](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/rootme/Monoalphabetic%20substitution%20-%20Polybe/polybe.py)
+Script: [PolybeCipher](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/ciphers/rootme/polybe_cipher.py)
 
 Result:
 

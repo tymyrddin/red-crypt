@@ -8,11 +8,11 @@ ELF (Executable and Linkable Format) is a standard file format for executable fi
 
 ## Solution
 
-[ch21.c](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/rootme/ELF64%20-%20PID%20encryption/ch21.c): If the first parameter passed to the file is equal to the hash of the pid of the file salted with `$1$awesome`, we’ll have a shell.
+[ch21.c](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/data/ELF64%20-%20PID%20encryption/ch21.c): If the first parameter passed to the file is equal to the hash of the pid of the file salted with `$1$awesome`, we’ll have a shell.
 
 We have to guess the PID though.
 
-[aha.py](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/rootme/ELF64%20-%20PID%20encryption/aha.py) takes its own pid, prints its pid+1, and hashes pid+1 with `$1$awesome`.
+[ahaAha.py](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/data/ELF64%20-%20PID%20encryption/ahaAha.py) takes its own pid, prints its pid+1, and hashes pid+1 with `$1$awesome`.
 
 ```text
 cryptanalyse-ch21@challenge01:~$ cd /tmp
