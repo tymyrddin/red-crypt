@@ -2,34 +2,30 @@
 
 [RootMe Challenge: Monoalphabetic substitution - Polybe](https://www.root-me.org/en/Challenges/Cryptanalysis/Monoalphabetic-substitution-Polybe): A strange person contact you after purchasing a parchment of weird origin ... He is counting on your quick wit to decrypt this message! You will need to deploy all your cryptanalyses faculties.
 
-Script: [PolybeCipher](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/ciphers/rootme/polybe_cipher.py)
+## Solution
 
-Result:
-
-```text
-ces grands ouvrages compares au corps humain semblent
-
-solides consideres selon les lois de cette nature qui detruit
-
-[...]
-
- voila telles que je les ai pu rediger les reflexions d un
-
-esprit des longtemps affaisse et appesanti par la disgrace si
-
-elles vous semblent audessous de votre genie ou peu propres
-
-a guerir vos douleurs songea5 combien l homme qu enlacent
-
-et absorbent ses propres maux manque de loisir pour
-
-consoler autrui et que les termes de notre idiome viennent
-
-difficilement au banni entoure de barbares dont le langage
-
-discordant choquant meme pour des barbares un peu civilises
-
-fremit incessamment a son oreille
-
-pass / mot de passe : xxxxxxxxxxxxx
-```
+| C   | P   |
+|:----|:----|
+| b4  | m   |
+| a4  | o   |
+| a1  | t   |
+| d3  | d   |
+| a3  | e   |
+| e1  | p   |
+| e3  | a   |
+| d1  | s   |
+| c4  | l   |
+| e5  | u   |
+| b1  | r   |
+| d2  | i   |
+| d4  | n   |
+| c5  | v   |
+| b2  | h   |
+| c1  | q   |
+| c2  | g   |
+| e2  | f   |
+| c3  | b   |
+| b3  | c   |
+| b5  | x   |
+| d5  | y   |
+| a2  | j   |
