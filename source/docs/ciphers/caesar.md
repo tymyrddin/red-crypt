@@ -29,19 +29,7 @@ The mathematical representation of Caesar’s method of shifting three to the ri
 
 ## Solution
 
-I used [DCode: Caesar](https://www.dcode.fr/caesar-cipher) to first shift with 1 for the first word, shift with 2 to get the second word, 3 for the third word, etc. 
-Oh, and the poem is in French, of course, which made it a bit harder:
-
-```text
-un deux trois
-j'irai dans les bois
-quatre cing six
-cueillir des cerises
-sept huit neuf
-dans un panier neuf
-dix onze douze
-elles seront toutes rouges
-```
+I used [Hack Caesar 26](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/ciphers/caesar/caesar_hack26.py) and a pattern and poem emerged.
 
 ## Resources
 

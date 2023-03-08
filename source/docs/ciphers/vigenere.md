@@ -23,35 +23,9 @@ of ciphertext. Many sources use $M$ (for message) rather than $P$ (for plaintext
 
 ## Solution
 
-[DCode](https://www.dcode.fr/vigenere-cipher) tells me the **Key/Password** is `THEMENTOR`. Using that I got a halfway readable text. Obviously the latter part has another **Key/Password**. Not needed, I recognise the text.
+I used [Vigenere Hack](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/ciphers/vigenere/vigenere_hack.py) which tells me the **Key/Password** is most likely `THEMENTOR`. Using that I got a halfway readable text. Obviously the latter part has another **Key/Password**. Not needed, I recognise the text.
 
-```text
-The Hacker Manifesto
+The **Conscience of a Hacker** (also known as **The Hacker Manifesto**) is a small essay written January 8, 1986, by a computer security hacker who went by the handle (or pseudonym) of **The Mentor**, who belonged to the second generation of hacker group Legion of Doom.
 
-Un autre s'est fait prendre aujourd'hui, c'est partout dans les journaux. "Scandale: Un adolescent arrete pour crime informatique,
-"Arrestation d'un 'hacker' apres le piratage d'une banque"...
-
-Satanes gosses, tous les memes.
-
-Mais avez vous, dans votre psychologie en trois piece et votre profil
-technocratique de 1950, un jour pense a regarder le monde derriere les yeux d'un hacker?
-Ne vous etes vous jamais demande ce qui l'avait fait agir, quelles forces l'avaient modele?
-Je suis un hacker, entrez dans mon monde...
-Le mien est un monde qui commence avec l'ecole... Je suis plus astucieux que la plupart des autres enfants, les conneries qu'ils m'apprennent me lassent...
-
-Je suis au college ou au lycee. J'ai ecoute les professeurs expliquer pour la quinzieme fois comment reduire une fraction.
-Je l'ai compris. "Non Mme Dubois, je ne peux pas montrer mon travail. Je l'ai fait dans ma tete"
-Satane gosses. Il l'a certainement copie. Tous les memes.
-
-J'ai fait une decouverte aujourd'hui. J'ai trouve un ordinateur.
-Attends une minute, c'est cool. Ca fait ce que je veux.
-```
-
-The **Conscience of a Hacker** (also known as **The Hacker Manifesto**) is a small essay written January 8, 1986 by a computer security hacker who went by the handle (or pseudonym) of The Mentor (born `Loyd Blankenship`), who belonged to the second generation of hacker group Legion of Doom.
-
-The Manifesto was written after the author's arrest, and first published in the underground hacker ezine Phrack. 
-
-## Resources
-
-* [The code book: the science of secrecy from ancient Egypt to quantum cryptography](https://archive.org/details/codebook00simo/page/n13/mode/2up)
+The Manifesto was written after the author's arrest, and first published in the underground hacker ezine [Phrack](http://phrack.org/).
 

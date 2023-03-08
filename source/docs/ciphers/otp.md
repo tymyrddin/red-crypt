@@ -17,7 +17,7 @@ While one-time pads provide perfect secrecy if generated and used properly, smal
 
 The Vernam cipher is a type of one-time pad. Gilbert Vernam proposed a stream cipher that would be used with teleprinters. It would combine character by character a prepared key that was stored on a paper tape, with the characters of the plaintext to produce the ciphertext. The recipient would again apply the key to get back the plaintext.
 
-Vernam’ s method uses the binary XOR (Exclusive OR) operation applied to the bits of the message.
+Vernam's method uses the binary XOR (Exclusive OR) operation applied to the bits of the message.
 
 ## Resources
 
