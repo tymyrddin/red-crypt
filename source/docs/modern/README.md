@@ -2,11 +2,11 @@
 
 ## What?
 
-Modern algorithms used in digital technology today, e.g. block ciphers, public key exchanges, etc.
+The most used algorithms used in digital technology today.
 
 ## Why?
 
-What can go wrong?
+[What can possibly go wrong?](https://www.root-me.org/en/Challenges/Cryptanalysis/)
 
 ## How?
 
