@@ -8,11 +8,53 @@ ELF (Executable and Linkable Format) is a standard file format for executable fi
 
 ## Solution
 
-[ch21.c](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/data/ELF64%20-%20PID%20encryption/ch21.c): If the first parameter passed to the file is equal to the hash of the pid of the file salted with `$1$awesome`, we’ll have a shell.
+Given: 
+
+```text
+/*
+ * gcc ch21.c -lcrypt -o ch21
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <crypt.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+int main (int argc, char *argv[]) {
+    char pid[16];
+    char *args[] = { "/bin/bash", "-p", 0 };
+
+    snprintf(pid, sizeof(pid), "%i", getpid());
+    if (argc != 2)
+        return 0;
+
+    printf("%s=%s",argv[1], crypt(pid, "$1$awesome"));
+
+    if (strcmp(argv[1], crypt(pid, "$1$awesome")) == 0) {
+        printf("WIN!\n");
+        execve(args[0], &args[0], NULL);
+
+    } else {
+        printf("Fail... :/\n");
+    }
+    return 0;
+}
+```
 
 We have to guess the PID though.
 
-[ahaAha.py](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/data/ELF64%20-%20PID%20encryption/ahaAha.py) takes its own pid, prints its pid+1, and hashes pid+1 with `$1$awesome`.
+```text
+# RootMe challenge ELF64 PID encryption
+# https://red.tymyrddin.dev/projects/crypto/en/latest/docs/data/elf64-pid.html
+
+import os
+import crypt
+
+PID = os.getpid() + 1
+print(crypt.crypt(str(PID), "$1$awesome"))
+```
 
 ```text
 cryptanalyse-ch21@challenge01:~$ cd /tmp

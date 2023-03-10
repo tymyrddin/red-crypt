@@ -23,7 +23,7 @@ The password is in UPPERCASE.
 
 ## Enigma
 
-Contrary to popular misconceptions, the Enigma is not a single machine, but rather a family of machines. The first version was invented by German engineer Arthur Scherbius toward the end of World War I. It was also used by several militaries, not just the Nazi Germans. 
+The Enigma is a family of machines. The first version was invented by German engineer Arthur Scherbius toward the end of World War I. It was also used by several militaries, not just the Nazi Germans. 
 
 Some military texts encrypted using a version of Enigma were broken by Polish cryptanalysts: Marrian Rejewsky, Jerzy Rozycki, and Henry Zygalski. The three basically reverse engineered a working Enigma machine. The team then developed tools for breaking Enigma ciphers, including one tool named the cryptologic bomb.
 

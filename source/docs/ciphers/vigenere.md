@@ -1,7 +1,5 @@
 # Poly-alphabetic substitution: Vigenère
 
-[RootMe Challenge: Polyalphabetic substitution: Vigenère](https://www.root-me.org/en/Challenges/Cryptanalysis/Polyalphabetic-substitution-Vigenere): We need your expert opinion on this document. This is an old letter, and it appears that it is important for the pirates that we are searching for. Your mission is to decipher the text and give us the full name of the author (example : "John Doe").
-
 ## Poly-alphabetic substitution
 
 Multi-alphabet substitution uses multiple substitutions, so that, for example, an `a` in the plaintext is sometimes a `k` and sometimes a `j` in the ciphertext. 
@@ -21,9 +19,13 @@ The math for Vigenère looks very similar to that of Caesar, with one important 
 The $i$ denotes the current key with the current letter of plaintext and the current letter
 of ciphertext. Many sources use $M$ (for message) rather than $P$ (for plaintext) in this notation. 
 
-## Solution
+## RootMe challenge
 
-I used [Vigenere Hack](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/ciphers/vigenere/vigenere_hack.py) which tells me the **Key/Password** is most likely `THEMENTOR`. Using that I got a halfway readable text. Obviously the latter part has another **Key/Password**. Not needed, I recognise the text.
+[RootMe Challenge: Polyalphabetic substitution: Vigenère](https://www.root-me.org/en/Challenges/Cryptanalysis/Polyalphabetic-substitution-Vigenere): We need your expert opinion on this document. This is an old letter, and it appears that it is important for the pirates that we are searching for. Your mission is to decipher the text and give us the full name of the author (example : "John Doe").
+
+### Solution
+
+I used [Vigenere Hack](https://github.com/tymyrddin/scripts-classical-ciphers/tree/main/vigenere) which tells me the **Key/Password** is most likely `THEMENTOR`. Using that I got a halfway readable text. Obviously the latter part has another **Key/Password**. Not needed, I recognise the text.
 
 The **Conscience of a Hacker** (also known as **The Hacker Manifesto**) is a small essay written January 8, 1986, by a computer security hacker who went by the handle (or pseudonym) of **The Mentor**, who belonged to the second generation of hacker group Legion of Doom.
 

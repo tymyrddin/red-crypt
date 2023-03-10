@@ -1,7 +1,5 @@
 # Mono-alphabetic substitution: Caesar
 
-[RootMe Challenge: Monoalphabetic substitution - Caesar](https://www.root-me.org/en/Challenges/Cryptanalysis/Monoalphabetic-substitution-Caesar): We just caught the messenger of the Emperor. He transmitted a coded message to his son. This could be an important message. You’ve to decrypt it ! To validate, you must enter the concatenation of the first letters of each line followed by the concatenation of the last letters of each line (for example : `tfhqdlhfpkmeokgq`).
-
 ## Substitution ciphers
 
 The oldest ciphers in recorded history are substitution ciphers. With this method, each letter of plaintext is substituted for some letter of ciphertext according to some algorithm. There are two types of substitution ciphers: single-alphabet (or mono-alphabet) and multi-alphabet (or poly-alphabet). In a single-alphabet substitution cipher, a given letter of plaintext is always substituted for the corresponding letter of ciphertext. For example, an `a` in the plaintext would always be a `k` in the ciphertext.
@@ -27,9 +25,13 @@ The mathematical representation of Caesar’s method of shifting three to the ri
 
 \begin{align} C\equiv P \oplus 3\mod(26) \end{align}
 
-## Solution
+## RootMe challenge
 
-I used [Hack Caesar 26](https://github.com/tymyrddin/scripts-cryptanalysis/blob/main/ciphers/caesar/caesar_hack26.py) and a pattern and poem emerged.
+[RootMe Challenge: Monoalphabetic substitution - Caesar](https://www.root-me.org/en/Challenges/Cryptanalysis/Monoalphabetic-substitution-Caesar): We just caught the messenger of the Emperor. He transmitted a coded message to his son. This could be an important message. You’ve to decrypt it ! To validate, you must enter the concatenation of the first letters of each line followed by the concatenation of the last letters of each line (for example : `tfhqdlhfpkmeokgq`).
+
+### Solution
+
+I used [Hack Caesar 26](https://github.com/tymyrddin/scripts-classical-ciphers/tree/main/caesar/caesar_hack26.py) and a pattern and poem emerged.
 
 ## Resources
 

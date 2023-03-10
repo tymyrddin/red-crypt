@@ -26,6 +26,40 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 
 ----
 
+.. image:: _static/images/coding.png
+  :alt: Coding
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Classical ciphers
+
+   docs/classical/README.md
+   Caesar's cipher <https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/caesar/README.md>
+   Vigenere's cipher <https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/vigenere/README.md>
+   Columnar transposition cipher <https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/columnar/README.md>
+   Rail fence transposition cipher <https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/railfence/README.md>
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Mechanical ciphers
+
+   docs/mechanical/README.md
+   Lorenz machines <https://github.com/tymyrddin/scripts-mechanical-ciphers/blob/main/lorenz/README.md>
+   Enigma machines <https://github.com/tymyrddin/scripts-mechanical-ciphers/blob/main/enigma/README.md>
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Modern ciphers
+
+   docs/modern/README.md
+   AES: A symmetric block cipher <https://github.com/tymyrddin/scripts-modern-ciphers/tree/main/aes>
+   RSA: An asymmetric key exchange <https://github.com/tymyrddin/scripts-modern-ciphers/tree/main/rsa>
+
+----
+
 .. image:: _static/images/ctf.png
   :alt: CTFs and challenges
 
