@@ -2,19 +2,20 @@
 
 ## What?
 
-Notes on attacks which attempt to bypass the security of a cryptographic system by discovering weaknesses and flaws in cryptography techniques, cryptographic protocol, encryption algorithms, or key management strategy. 
+Encryption algorithms or implementations thereof can fail to protect confidentiality in many ways. This can be due to a failure to match the security requirements or to set requirements matching reality. 
 
 ## Why?
+
+Many engineers do not even think about cryptographic security requirements and just want to be "secure" without understanding what that actually means. A recipe for disaster.
 
 Jump Off This Cliff.
 
 ## How?
 
-* [Brute force attack](brute-force.md)
-* [Ciphertext-only attack](ciphertext-only.md)
-* [Chosen plaintext attack](plaintext.md)
-* [Chosen ciphertext attack](ciphertext.md)
-* [Known plaintext attack](known-plaintext.md)
-* [Key and algorithm](algorithm.md)
-* [Side-channel attack](side-channel.md)
-* [Physical attack](physical.md)
+* [Classical ciphers](classical.md)
+* [Brute-force attacks](bruteforce.md)
+* [Attack models](models.md)
+* [Security goals](goals.md)
+* [Block ciphers](block.md)
+* [Advanced Encryption Standard (AES)](aes.md)
+

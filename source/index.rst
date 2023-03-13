@@ -15,14 +15,12 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :caption: Notes on techniques
 
    docs/notes/README.md
-   docs/notes/brute-force.md
-   docs/notes/ciphertext-only.md
-   docs/notes/plaintext.md
-   docs/notes/ciphertext.md
-   docs/notes/known-plaintext.md
-   docs/notes/algorithm.md
-   docs/notes/side-channel.md
-   docs/notes/physical.md
+   docs/notes/classical.md
+   docs/notes/bruteforce.md
+   docs/notes/models.md
+   docs/notes/goals.md
+   docs/notes/block.md
+   docs/notes/aes.md
 
 ----
 
@@ -32,7 +30,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Classical ciphers
+   :caption: Coding classical ciphers
 
    docs/classical/README.md
    Caesar's cipher <https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/caesar/README.md>
@@ -43,16 +41,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Mechanical ciphers
-
-   docs/mechanical/README.md
-   Lorenz machines <https://github.com/tymyrddin/scripts-mechanical-ciphers/blob/main/lorenz/README.md>
-   Enigma machines <https://github.com/tymyrddin/scripts-mechanical-ciphers/blob/main/enigma/README.md>
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Modern ciphers
+   :caption: Coding modern ciphers
 
    docs/modern/README.md
    AES: A symmetric block cipher <https://github.com/tymyrddin/scripts-modern-ciphers/tree/main/aes>
@@ -66,7 +55,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Ciphers
+   :caption: Classical cipher challenges
 
    docs/ciphers/README.md
    docs/ciphers/caesar.md
@@ -79,7 +68,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Hashing
+   :caption: Hacking hashes
 
    docs/hashes/README.md
    docs/hashes/dcc.md
@@ -95,7 +84,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Symmetric encryption
+   :caption: Symmetric encryption challenges
 
    docs/symmetric/README.md
    docs/symmetric/ecb.md
@@ -114,7 +103,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Asymmetric encryption
+   :caption: Asymmetric encryption challenges
 
    docs/asymmetric/README.md
    docs/asymmetric/factorisation.md
@@ -132,7 +121,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Data
+   :caption: Data challenges
 
    docs/data/README.md
    docs/data/elf64-pid.md
@@ -145,7 +134,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Key Exchange
+   :caption: Key Exchange challenges
 
    docs/exchange/README.md
    docs/exchange/ecdhe.md
@@ -154,7 +143,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Signatures
+   :caption: Signature challenges
 
    docs/signatures/README.md
    docs/signatures/ecdsa-conventional.md

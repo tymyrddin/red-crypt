@@ -1,4 +1,4 @@
-# Brute force attack
+# Brute force
 
 A brute force attack is a golden oldie, today still widely used and remains highly effective. Attackers use brute force attacks to:
 
@@ -8,7 +8,7 @@ A brute force attack is a golden oldie, today still widely used and remains high
 
 For example, public and private keys are used for encrypting and decrypting the data in a cryptographic system. In a brute force attack, possible private keys are used to decipher an encrypted message or data. The algorithm must be known, and is usually found as open-source programs.
 
-## Types
+## Types of attacks
 
 * In a **simple brute force attack**, an attacker tries to crack a small number of possible simple passwords or keys quickly. These attacks are only effective against systems with weak passwords or simple password policies. Simple passwords are guessed with common expressions like `password` and `p4ssw0rd!`.  These attacks can be done manually or use automation and scripts. Automated attacks are also more likely to be detected and blocked by security systems.
 * In a **dictionary attack** an attacker tries different possible passwords with a pre-arranged list of words, typically taken from a dictionary, against a username. A program is used to try different combinations of words and phrases. Used are unabridged or special dictionaries, augmented with numbers and special characters, and dictionaries of passwords that have been leaked by earlier data breaches. These attacks can be effective in contexts where people choose passwords that are simply words or phrases.
@@ -19,12 +19,16 @@ For example, public and private keys are used for encrypting and decrypting the 
 * In a **password spraying attack** one common password is applied to many accounts. These attacks are often successful as many people use the same password for multiple accounts. 
 * In a **brute force attack on RDP connections** an attacker tries to correctly guess the password to a remote desktop protocol (RDP) connection. If attackers can correctly guess the password, they can spread laterally throughout the network, injecting malware.
 
+## Physical attack
+
+Physical attacks can vary from blackmail to abduction. And are increasingly common, as James Lopps [Known Physical Bitcoin Attacks](https://github.com/jlopp/physical-bitcoin-attacks) repository attests to.
+
 ## Remediation
 
 * Use strong, unique passwords that are not based on words or phrases in a dictionary.
 * Enable multifactor authentication (MFA).
 * Keep track of login activities, like the number of failed login attempts and the failed IP addresses of users and locations.
-* Limit the number of login attempts made within a certain period and lock down the account after a certain number of login attempts. 
+* Limit the number of login attempts made within a certain period and lock down the account after a certain number of login attempts.
 
 ## Resources
 

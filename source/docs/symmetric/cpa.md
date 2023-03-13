@@ -4,6 +4,3 @@
 
 Note: Values have been normalized to reduce data size.
 
-## Resources
-
-* [All About Side Channel Attacks](https://repository.root-me.org/Cryptographie/EN%20-%20All%20about%20side%20channel%20attacks%20-%20Nicolas%20Courtois.pdf)

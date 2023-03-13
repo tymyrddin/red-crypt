@@ -2,7 +2,7 @@
 
 ## What?
 
-The most used algorithms used in digital technology today.
+Coding the most used algorithms used in digital technology today.
 
 ## Why?
 

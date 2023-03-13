@@ -6,8 +6,3 @@ Exploit this reduction of the round number to recover the secret key and then re
 
     Time limitation 	None
     Data limitation 	None
-
-## Resources
-
-* [FIPS 197 - Advanced Encryption Standard (AES)](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/EN%20-%20FIPS%20197%20-%20Advanced%20Encryption%20Standard%20(AES).pdf)
-* [The Block Cipher SQUARE - Daemen, Knudsen, Rijmen](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/EN%20-%20The%20Block%20Cipher%20SQUARE%20-%20Daemen,%20Knudsen,%20Rijmen.pdf)
