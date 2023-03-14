@@ -43,3 +43,6 @@ _S-boxes must be carefully chosen to be cryptographically strong: they should be
 
 The permutation in a substitution–permutation network can be as simple as changing the order of the bits, which is easy to implement but does not mix up the bits very much. Instead of a reordering of the bits, some ciphers use basic linear algebra and matrix multiplications to mix up the bits.
 
+## Security
+
+There are two must-know attacks on block ciphers: meet-in-the-middle attacks, a technique discovered in the 1970s but still used in many cryptanalytic attacks (not to be confused with man-in-the-middle attacks), and padding oracle attacks, a class of attacks discovered in 2002 by academic cryptographers, then mostly ignored, and finally rediscovered a decade later along with several vulnerable applications.
