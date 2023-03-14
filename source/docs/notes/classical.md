@@ -4,6 +4,8 @@ Classical ciphers are doomed to be insecure because they’re limited to operati
 
 ## Caesar cipher
 
+![Caesar example](../../_static/images/caesar.png)
+
 One of the most widely known historical encryption methods is the Caesar cipher. According to the Roman historian Gaius Suetonius Tranquillus (c. 70–130 CE), Julius Caesar used this cipher to encrypt military messages, shifting all letters of the plaintext three places to the right.
 
 Although the Caesar cipher is not useful for modern cryptographic needs, it does contain all the fundamental concepts needed for a cryptography algorithm
@@ -21,13 +23,15 @@ The mathematical representation of Caesar’s method of shifting three to the ri
 
 \begin{align} C\equiv P \oplus 3\mod(26) \end{align}
 
-The [Caesar cipher](https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/caesar/README.md) is super easy to break: to decrypt a given ciphertext, simply shift the letters three positions back to retrieve the plaintext. The Caesar cipher may have been strong enough during the time of Crassus and Cicero because no secret key was involved (it is always 3), and it was assumed attackers were illiterate or too uneducated to figure it out. This assumption no longer holds true.
+The [Caesar cipher](https://github.com/tymyrddin/scripts-classical-ciphers/tree/main/caesar) is super easy to break: to decrypt a given ciphertext, simply shift the letters three positions back to retrieve the plaintext. The Caesar cipher may have been strong enough during the time of Crassus and Cicero because no secret key was involved (it is always 3), and it was assumed attackers were illiterate or too uneducated to figure it out. This assumption no longer holds true.
 
 The Caesar cipher can be made more secure by using [a variable secret shift value](../ciphers/caesar.md) instead of always using 3, but that does not help much because an attacker could easily try all 25 possible shift values until the decrypted message makes sense.
 
-## The Vigenère Cipher
+## The Vigenère cipher
 
-About 1500 years later, in 1553, a meaningful improvement of the Caesar cipher appeared in the form of the [Vigenère cipher](https://github.com/tymyrddin/scripts-classical-ciphers/blob/main/vigenere/README.md), created in the 16th century by Giovan Battista Bellaso. The name **Vigenère** comes from Blaise de Vigenère, who invented a different cipher in the 16th century, but due to historical misattribution, Vigenère’s name stuck.
+![Vigenere example](../../_static/images/vigenere.png)
+
+About 1500 years later, in 1553, a meaningful improvement of the Caesar cipher appeared in the form of the [Vigenère cipher](https://github.com/tymyrddin/scripts-classical-ciphers/tree/main/vigenere), created in the 16th century by Giovan Battista Bellaso. The name **Vigenère** comes from Blaise de Vigenère, who invented a different cipher in the 16th century, but due to historical misattribution, Vigenère’s name stuck.
 
 The Vigenère cipher is a method of encrypting alphabetic text by using a series of different mono-alphabet ciphers selected based on the letters of a keyword. Bellaso also added the concept of using any keyword, thereby making the choice of substitution alphabets difficult to calculate.
 
@@ -73,7 +77,7 @@ Frequency analysis can be defeated if the Vigenère cipher only encrypts plainte
 
 A classical cipher can not be secure unless it comes with a huge key, and encrypting with a huge key is impractical. The one-time pad is such a cipher, and it is the most secure cipher. 
 
-The one-time pad takes a plaintext, $P$, and a random key, $K$, that is the same length as $P$ and produces a ciphertext $C$, defined as
+The [one-time pad](https://github.com/tymyrddin/scripts-classical-ciphers/tree/main/otp) takes a plaintext, $P$, and a random key, $K$, that is the same length as $P$ and produces a ciphertext $C$, defined as
 
 \begin{align} C\equiv P \oplus K \end{align}
 
@@ -105,6 +109,15 @@ One-time pads were used by the British Special Operations Executive during WWII,
 The Vernam cipher is a type of one-time pad. Gilbert Vernam proposed a stream cipher that would be used with teleprinters. It would combine character by character a prepared key that was stored on a paper tape, with the characters of the plaintext to produce the ciphertext. The recipient would again apply the key to get back the plaintext.
 
 Vernam's method uses the binary XOR (Exclusive OR) operation applied to the bits of the message.
+
+## RootMe challenges
+
+* [Mono-alphabetic substitution: Caesar](../ciphers/caesar.md)
+* [Poly-alphabetic substitution: Vigenère](../ciphers/vigenere.md)
+* [Transposition: Rail Fence](../ciphers/rail-fence.md)
+* [Mono-alphabetic substitution: Polybe](../ciphers/polybe.md)
+* [Enigma machine](../ciphers/enigma.md)
+* [Poly-alphabetic substitution: One Time Pad](../ciphers/otp.md)
 
 ## Security
 
