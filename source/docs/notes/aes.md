@@ -106,6 +106,14 @@ encryption and decryption.
 * [AES Fault attack #2](../symmetric/fault2.md)
 * [AES PMAC forgery attack](../symmetric/pmac.md)
 
+## Security
+
+Never reuse key and IV pairs. Reusing a key and IV pair in CBC produces predictable output for predictable headers. Parts of the messages that you might be inclined not to think about at all, because they are boilerplate or contain hidden structure, will become a liability; adversaries can use predictable ciphertext to learn about your keys. Reusing a key and IV in counter mode is even worse. If and adversary happens to know the plaintext, they can recover the key. Cipher block chaining mode is different because a change to a single byte of ciphertext will affect all subsequent blocks.
+
+Keys must be drawn from good sources of randomness. The `random` package is a pseudo-random number generator and not even a good one at that. Pseudo-random generators are deterministic, generating numbers that appear random to humans, but are always the same given a known seed value.
+
+Gaze into padding and its attacks. Choose a cipher mode like AES-GCM or AEX.
+
 ## Resources
 
 * [FIPS 197 - Advanced Encryption Standard (AES)](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/EN%20-%20FIPS%20197%20-%20Advanced%20Encryption%20Standard%20(AES).pdf)
