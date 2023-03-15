@@ -4,8 +4,8 @@
 
 Hashing is a cornerstone of cryptographic security. It involves the concept of a one-way function or fingerprint. Hash functions only work well when a couple of things are true about them:
 
-- [x] They produce repeatable, unique values for every input.
-- [x] The output value provides no clues about the input that produced it.
+* They produce repeatable, unique values for every input. 
+* The output value provides no clues about the input that produced it.
 
 ## Why?
 
