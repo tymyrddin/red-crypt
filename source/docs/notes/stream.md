@@ -27,3 +27,6 @@ The most common failure seen with stream ciphers occurs when a nonce is reused m
 ## Resources
 
 * [Linear Feedback Shift Registers (LFSR) - Auburn Univ](https://repository.root-me.org/Cryptographie/EN%20-%20LFSR-based%20Stream%20Ciphers%20-%20Anne%20Canteaut.pdf)
+* [Tutorial: Linear Feedback Shift Registers (LFSRs) – Part 1](https://www.edn.com/tutorial-linear-feedback-shift-registers-lfsrs-part-1/)
+* [Tutorial: Linear Feedback Shift Registers (LFSRs) – Part 2](https://www.edn.com/tutorial-linear-feedback-shift-registers-lfsrs-part-2/)
+* [Tutorial: Linear Feedback Shift Registers (LFSRs) – Part 3](https://www.edn.com/tutorial-linear-feedback-shift-registers-lfsrs-part-3/)
