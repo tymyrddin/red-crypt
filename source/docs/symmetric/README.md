@@ -10,9 +10,9 @@ AES is used in many common Internet protocols and operating system services, inc
 
 ## How?
 
-- [ ] [AES Electronic code book](ecb.md)
+- [x] [CBC Bit-flipping attack](cbc-bit-flipping.md)
+- [x] [AES Electronic code book](ecb.md)
 - [ ] [AES 4 rounds](4-rounds.md)
-- [ ] [CBC Bit-flipping attack](cbc-bit-flipping.md)
 - [ ] [AES128 Counter mode attack](ctr.md)
 - [ ] [AES Fault attack #1](fault1.md)
 - [ ] [CBC padding attack](cbc-padding.md)

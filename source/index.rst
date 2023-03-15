@@ -1,7 +1,7 @@
 Beyond the visible
 ==============================================
 
-Come backstage to discover what is usually not seen concerning encoded and encrypted data in rest, underway, and in use. Witness the strategic decisions, the designing of algorithms, the complex implementations, the innovative (yet old and not really changing) technological solutions, the endless resources invested into research and development of security and privacy ... and everything that isn't, and everything that is, but gets hacked.
+Come backstage with us to discover what is usually not seen concerning encoded and encrypted data in rest, underway, and in use. Witness the strategic decisions, the designing of algorithms, the complex implementations, the innovative (yet old and not really changing) technological solutions, the endless resources invested into research and development of security and privacy ... and everything that isn't, and everything that is, but gets hacked.
 
 .. image:: _static/images/in-progress.png
   :alt: In progress ...
@@ -56,7 +56,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Classical cipher challenges
+   :caption: Classical cipher breaking
 
    docs/ciphers/README.md
    docs/ciphers/caesar.md
@@ -69,7 +69,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Hacking hashes
+   :caption: Hash hacking
 
    docs/hashes/README.md
    docs/hashes/dcc.md
@@ -85,11 +85,11 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Symmetric encryption challenges
+   :caption: AES busting
 
    docs/symmetric/README.md
-   docs/symmetric/ecb.md
    docs/symmetric/cbc-bit-flipping.md
+   docs/symmetric/ecb.md
    docs/symmetric/4-rounds.md
    docs/symmetric/ctr.md
    docs/symmetric/fault1.md
@@ -104,7 +104,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Asymmetric encryption challenges
+   :caption: RSApocalypses
 
    docs/asymmetric/README.md
    docs/asymmetric/factorisation.md
@@ -122,7 +122,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Data challenges
+   :caption: Data dares
 
    docs/data/README.md
    docs/data/elf64-pid.md
@@ -135,20 +135,12 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Key Exchange challenges
+   :caption: Elliptic curve balls
 
-   docs/exchange/README.md
-   docs/exchange/ecdhe.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Signature challenges
-
-   docs/signatures/README.md
-   docs/signatures/ecdsa-conventional.md
-   docs/signatures/ecdsa-error.md
+   docs/ecc/README.md
+   docs/ecc/ecdhe.md
+   docs/ecc/ecdsa-conventional.md
+   docs/ecc/ecdsa-error.md
 
 ----
 
