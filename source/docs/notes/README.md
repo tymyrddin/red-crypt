@@ -6,9 +6,7 @@ Encryption algorithms or implementations thereof can fail to protect confidentia
 
 ## Why?
 
-Many engineers do not even think about cryptographic security requirements and just want to be "secure" without understanding what that actually means. A recipe for disaster.
-
-Jump Off This Cliff.
+Jump Off This Cliff and think about cryptographic security requirements.
 
 ## How?
 
@@ -17,5 +15,5 @@ Jump Off This Cliff.
 * [Attack models](models.md)
 * [Security goals](goals.md)
 * [Block ciphers](block.md)
-* [Advanced Encryption Standard (AES)](aes.md)
+* [AES hacks](aes.md)
 
