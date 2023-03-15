@@ -21,6 +21,7 @@ Come backstage to discover what is usually not seen concerning encoded and encry
    docs/notes/goals.md
    docs/notes/block.md
    docs/notes/aes.md
+   docs/notes/stream.md
 
 ----
 

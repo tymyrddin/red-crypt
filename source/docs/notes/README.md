@@ -16,4 +16,5 @@ Jump Off This Cliff and think about cryptographic security requirements.
 * [Security goals](goals.md)
 * [Block ciphers](block.md)
 * [AES hacks](aes.md)
+* [Stream ciphers](stream.md)
 
