@@ -22,6 +22,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/notes/block.md
    docs/notes/aes.md
    docs/notes/stream.md
+   docs/notes/hashes.md
 
 ----
 
