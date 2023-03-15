@@ -14,6 +14,14 @@ Counter-based stream ciphers produce chunks of keystream from a key, a nonce, an
 
 Linear feedback shift registers (LFSRs) are FSRs with a linear feedback function, a function that is the XOR of some bits of the state. Thanks to this linearity, LFSRs can be analyzed using notions like linear complexity, finite fields, and primitive polynomials.
 
+The choice which bits are XORed together is essential for the period of the LFSR and thus for its cryptographic value. The position of the bits must be selected such to guarantee a maximal period ($2^n – 1$). The maximal period of an n-bit LFSR is $2^n – 1$, not $2^n$, because the all-zero state always loops on itself infinitely.
+
+Take the indices of the bits, from 1 for the rightmost to n for the leftmost, and write the polynomial expression $1 + X + X^2 + . . . + X^n$, where the term $X^i$ is only included if the $i$th bit is one of the bits XORed in the feedback function. The period is maximal if and only if that polynomial is primitive. 
+
+To be primitive, the polynomial must be irreducible, meaning that it ca not be factorised (written as a product of smaller polynomials). 
+
+Using an LFSR as a stream cipher is insecure. If $n$ is the LFSR’s bit length, an attacker needs only $n$ output bits to recover the LFSR’s initial state, allowing them to determine all previous bits and predict all future bits. This attack is possible because the [Berlekamp–Massey algorithm](https://berlekamp-massey-algorithm.appspot.com/) can be used to solve the equations defined by the LFSR’s mathematical structure to find not only the LFSR’s initial state but also its feedback polynomial. It isn't even needed to know the exact length of the LFSR; repeat the Berlekamp–Massey algorithm for all possible values of $n$ until you hit the right one.
+
 ## RootMe challenges
 
 * [LFSR - Known plaintext](../streams/lfsr.md)
