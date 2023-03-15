@@ -67,21 +67,6 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/ciphers/otp.md
 
 .. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Hash hacking
-
-   docs/hashes/README.md
-   docs/hashes/dcc.md
-   docs/hashes/dcc2.md
-   docs/hashes/lm.md
-   docs/hashes/md5.md
-   docs/hashes/nt.md
-   docs/hashes/sha2.md
-   docs/hashes/cisco.md
-   docs/hashes/sha3.md
-
-.. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
@@ -99,6 +84,30 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/symmetric/weaker-variant.md
    docs/symmetric/fault2.md
    docs/symmetric/pmac.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Cruising stream ciphers
+
+   docs/streams/README.md
+   docs/streams/lfsr.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Hash hacking
+
+   docs/hashes/README.md
+   docs/hashes/dcc.md
+   docs/hashes/dcc2.md
+   docs/hashes/lm.md
+   docs/hashes/md5.md
+   docs/hashes/nt.md
+   docs/hashes/sha2.md
+   docs/hashes/cisco.md
+   docs/hashes/sha3.md
 
 .. toctree::
    :glob:
