@@ -23,6 +23,8 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/notes/aes.md
    docs/notes/stream.md
    docs/notes/hashes.md
+   docs/notes/rsa.md
+   docs/notes/ec.md
 
 ----
 

@@ -18,4 +18,6 @@ Jump Off This Cliff and think about cryptographic security requirements.
 * [AES busting](aes.md)
 * [Down stream](stream.md)
 * [Hacking hashes](hashes.md)
+* [RSApocalypse](rsa.md)
+* [Elliptic curve balls](ec.md)
 
