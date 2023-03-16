@@ -4,7 +4,7 @@ Beyond the visible
 Come backstage with us to discover what is usually not seen concerning encoded and encrypted data in rest, underway, and in use. Witness the strategic decisions, the designing of algorithms, the complex implementations, the innovative (yet old and not really changing) technological solutions, the endless resources invested into research and development of security and privacy ... and everything that isn't, and everything that is, but gets hacked.
 
 .. image:: _static/images/in-progress.png
-  :alt: In progress ...
+  :alt: Forever in progress ...
 
 ----
 
@@ -26,9 +26,6 @@ Come backstage with us to discover what is usually not seen concerning encoded a
 
 ----
 
-.. image:: _static/images/coding.png
-  :alt: Coding
-
 .. toctree::
    :maxdepth: 1
    :includehidden:
@@ -47,12 +44,10 @@ Come backstage with us to discover what is usually not seen concerning encoded a
 
    docs/modern/README.md
    AES: A symmetric block cipher <https://github.com/tymyrddin/scripts-modern-ciphers/tree/main/aes>
+   LFSR: Linear feedback shift registers <https://github.com/tymyrddin/scripts-modern-ciphers/tree/main/aes>
    RSA: An asymmetric key exchange <https://github.com/tymyrddin/scripts-modern-ciphers/tree/main/rsa>
 
 ----
-
-.. image:: _static/images/ctf.png
-  :alt: CTFs and challenges
 
 .. toctree::
    :maxdepth: 1
