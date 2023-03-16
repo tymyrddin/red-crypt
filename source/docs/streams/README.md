@@ -10,4 +10,4 @@ Historically, stream ciphers were more fragile than block ciphers, and were more
 
 ## How?
 
-- [ ] [LFSR - Known plaintext](lfsr.md)
+- [x] [LFSR - Known plaintext](lfsr.md)
