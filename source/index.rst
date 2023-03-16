@@ -90,7 +90,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Cruising streams
+   :caption: Down streams
 
    docs/streams/README.md
    docs/streams/lfsr.md

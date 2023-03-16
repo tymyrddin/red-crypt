@@ -1,4 +1,4 @@
-# Down stream
+# Down streams
 
 Stream ciphers are deterministic. This allows for decrypting by regenerating the pseudorandom bits used to encrypt. Stream ciphers take two values: a key and a nonce. The key should be secret and is usually 128 or 256 bits. The nonce does not have to be secret, but should be unique for each key and is usually between 64 and 128 bits. The nonce is sometimes called the IV, for initial value.
 
