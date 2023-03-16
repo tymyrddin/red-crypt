@@ -126,5 +126,3 @@ A cipher is secure if, even given a large number of plaintext–ciphertext pairs
 ## Resources
 
 * [Serious Cryptography - A Practical Introduction to Modern Encryption by Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
-* [Le code de César](https://www.root-me.org/spip.php?article82)
-* [Le chiffrement par décalage](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/FR%20-%20Le%20chiffrement%20par%20d%C3%A9calage.pdf)

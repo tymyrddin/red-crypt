@@ -116,11 +116,5 @@ Gaze into padding and its attacks. Choose a cipher mode like AES-GCM or AEX.
 
 ## Resources
 
+* [Serious Cryptography - A Practical Introduction to Modern Encryption by Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
 * [FIPS 197 - Advanced Encryption Standard (AES)](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/EN%20-%20FIPS%20197%20-%20Advanced%20Encryption%20Standard%20(AES).pdf)
-* [The Block Cipher SQUARE - Daemen, Knudsen, Rijmen](https://repository.root-me.org/Cryptographie/Sym%C3%A9trique/EN%20-%20The%20Block%20Cipher%20SQUARE%20-%20Daemen,%20Knudsen,%20Rijmen.pdf)
-* [SANS Institute AES CBC Bit Flipping](https://www.root-me.org/en/Challenges/Cryptanalysis/AES-CBC-Bit-Flipping-Attack)
-* [The Padding Oracle Attack, by Robert Heaton](https://robertheaton.com/2013/07/29/padding-oracle-attack/)
-* [Padding oracle attacks on the ISO CBC mode encryption standard](https://repository.root-me.org/Cryptographie/EN%20-%20Padding%20oracle%20attacks%20on%20the%20ISO%20CBC%20mode%20encryption%20standard.pdf)
-* [Security flaws induced by CBC padding](https://repository.root-me.org/Cryptographie/EN%20-%20Security%20flaws%20induced%20by%20CBC%20padding.pdf)
-* [Efficient padding oracle attacks on cryptographic systems](https://repository.root-me.org/Cryptographie/EN%20-%20Efficient%20padding%20oracle%20attacks%20on%20cryptographic%20systems.pdf)
-* [Practical Padding oracle attacks](https://repository.root-me.org/Cryptographie/EN%20-%20Practical%20Padding%20oracle%20attacks.pdf)
