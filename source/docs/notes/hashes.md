@@ -2,11 +2,48 @@
 
 Hash functions, like MD5, SHA-1, SHA-256, SHA-3, and BLAKE2, are used in digital signatures, public-key encryption, integrity verification, message authentication, password protection, key agreement protocols, and many other cryptographic protocols.
 
+## Security goals
+
+Hash functions in applied cryptography are constructions that were originally defined to provide three specific security properties: 
+
+* Pre-image resistance ensures that no one should be able to reverse the hash function in order to recover the input given an output.
+* Second pre-image resistance: if I give you an input and the digest it hashes to, you should not be able to find a different input that hashes to the same digest.
+* Collision resistance: one should be able to produce two different inputs that hash to the same output.
+
+This definition has changed over time, and are often meaningless on their own; it all depends on how the hash function is used.
+
+In addition, hash functions are usually designed so that their digests are unpredictable and random. This is useful because one cannot always prove a protocol to be secure.
+
+Many protocols are instead proven in the random oracle model, where a fictional and ideal participant called a random oracle is used. In this type of protocol, one can send any inputs as requests to that random oracle, which is said to return completely random outputs in response, and like a hash function, giving it the same input twice returns the same output twice.
+
+Proofs in this model are sometimes controversial as we do not know for sure if we can replace these random oracles with real hash functions (in practice). Yet, many legitimate protocols are proven secure using this method, where hash functions are seen as more ideal than they probably are.
+
+## Finding collisions
+
+### Naive birthday attack
+
+1. Compute $2^{n/2}$ hashes of $2^{n/2}$ arbitrarily chosen messages and store all the message/hash pairs in a list.
+2. Sort the list with respect to the hash value to move any identical hash values next to each other.
+3. Search the sorted list to find two consecutive entries with the same hash value.
+
+This method requires a lot of memory (storing $2^{n/2}$ message/hash pairs), and sorting lots of elements slows down the search, requiring about $2^{2n}$ basic operations on average using even the quicksort
+algorithm.
+
+### The Rho method
+
+The Rho method is an algorithm for finding collisions that, unlike the naive birthday attack, requires only a small amount of memory:
+
+1. Given a hash function with $n$-bit hash values, pick some random hash value ($H_1$), and define $H_1 = H'_1$.
+2. Compute $H_2 =  Hash(H_1)$, and $H'_2 = Hash(Hash(H'_1))$; that is, in the first case apply the hash function once, and in the second case twice.
+3. Iterate the process and compute $H_i + 1 = Hash(H_i)$, $H'_i + 1 = Hash(Hash(H'_i))$, until you reach $i$ such that $H_i + 1 = H'_i + 1$.
+
+![Rho cycle](../../_static/images/rho.png)
+
+Advanced collision-finding techniques work by first detecting the start of the cycle and then finding the collision, without storing numerous values in memory and without needing to sort a long list.
+
 ## Cracking hashes
 
-Having the hash value of something, and wanting to calculate the data it came from, there is not a unique solution. In practice, for short objects like passwords, there is. So, if someone uses an MD5 function to obscure a password, which is done by some old web applications, then you can reverse it by guessing passwords until finding a match. 
-
-There is no mathematical way to undo a hash function, so the best way is to make (or use) a library. That's how hash cracking works. Not complicated, just annoying.
+Having the hash value of something, and wanting to calculate the data it came from, in general, there is no unique solution. For short objects like passwords, there is. If someone uses an MD5 function to obscure a password (done by some old web applications still existing in the wild), then you can reverse it by guessing passwords until finding a match. There is no mathematical way to undo a hash function, so the best way is to make (or use) a library. 
 
 ## Windows passwords
 
@@ -93,3 +130,8 @@ $ john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crackthisha
 ## Security
 
 Despite their apparent simplicity, hash functions can cause major security troubles when used at the wrong place or in the wrong way—for example, when weak checksum algorithms like CRCs are used instead of a crypto hash to check file integrity in applications transmitting data over a network. However, this weakness pales in comparison to some others, which can cause total compromise in seemingly secure hash functions.
+
+## Resources
+
+* [Collisions of MD5](https://repository.root-me.org/Cryptographie/EN%20-%20Collisions%20of%20MD5.pdf)
+* [rfc1321](https://repository.root-me.org/RFC/EN%20-%20rfc1321.txt)

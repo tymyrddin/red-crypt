@@ -10,7 +10,3 @@ By the mid-1990s, weaknesses were revealed in `MD5`'s compression functions that
 
 Use the [crackstation](https://crackstation.net/).
 
-## Resources
-
-* [Collisions of MD5](https://repository.root-me.org/Cryptographie/EN%20-%20Collisions%20of%20MD5.pdf)
-* [rfc1321](https://repository.root-me.org/RFC/EN%20-%20rfc1321.txt)

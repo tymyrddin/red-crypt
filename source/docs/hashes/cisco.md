@@ -87,7 +87,7 @@ $1$mERr$A419.HL58lq743wXS4kSM1
  `-> Hash type (md5)
 ```
 
-## Cracking
+On cracking with hashcat or John the Ripper:
 
 | Cisco  | Crackability | John the Ripper             | Hashcat |
 |:-------|:-------------|:----------------------------|:--------|
@@ -99,7 +99,7 @@ $1$mERr$A419.HL58lq743wXS4kSM1
 | Type 9 | very hard    | --format=scrypt             | -m 9300 |
 
 
-### Cracking the administrator password
+Cracking the administrator password:
 
 `hash.txt`:
 
@@ -113,7 +113,7 @@ Using `hashcat`:
 hashcat -m 500 --username -O -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 ```
 
-### Cracking the enable password
+Cracking the enable password:
 
 `hash.txt`:
 
@@ -132,8 +132,6 @@ I also tried [IFM](https://www.ifm.net.nz/cookbooks/cisco-ios-enable-secret-pass
 [![IFM 5](../../_static/images/ifm5.png)](https://www.ifm.net.nz/cookbooks/cisco-ios-enable-secret-password-cracker.html)
 
 It was extremely slow, and I broke it off after an hour.
-
-## Flag
 
 The flag is the concatenation of the enable and administrator passwords, in that order.
 
