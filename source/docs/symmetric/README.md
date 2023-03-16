@@ -12,6 +12,7 @@ AES is used in many common Internet protocols and operating system services, inc
 
 - [x] [CBC Bit-flipping attack](cbc-bit-flipping.md)
 - [x] [AES Electronic code book](ecb.md)
+- [x] [Initialisation vector](iv.md)
 - [ ] [AES 4 rounds](4-rounds.md)
 - [ ] [AES128 Counter mode attack](ctr.md)
 - [ ] [AES Fault attack #1](fault1.md)
