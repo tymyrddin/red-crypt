@@ -6,6 +6,10 @@ ciphertext :
 
     e8oQDihsmkvjT3sZe+EE8lwNvBEsFegYF6+OOFOiR6gMtMZxxba/bIgLUD8pV3yEf0gOOfHuB5bC3vQmo7bE4PcIKfpFGZBA
 
+1. Decode the base64 ciphertext
+2. Use [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)
+3. Decrypt message with `openssl`
+
 ## Resources
 
 * [Cryptanalysis of short RSA secret exponents](https://repository.root-me.org/Cryptographie/Asym%C3%A9trique/EN%20-%20Cryptanalysis%20of%20short%20RSA%20secret%20exponents.pdf)

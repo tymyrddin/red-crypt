@@ -10,8 +10,8 @@ It is ubiquitous, but it is also subtle and easy to implement or use incorrectly
 
 ## How?
 
-- [ ] [RSA Factorisation](factorisation.md)
-- [ ] [RSA Decipher oracle](oracle.md)
+- [x] [RSA Factorisation](factorisation.md)
+- [x] [RSA Decipher oracle](oracle.md)
 - [ ] [RSA Corrupted key 1](corrupted-key1.md)
 - [ ] [RSA Continued fractions](fractions.md)
 - [ ] [RSA Common modulus](modulus.md)
