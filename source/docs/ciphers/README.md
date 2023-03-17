@@ -14,5 +14,6 @@ Building a contextual perspective.
 - [x] [Poly-alphabetic substitution: Vigenère](vigenere.md)
 - [x] [Transposition: Rail Fence](rail-fence.md)
 - [x] [Mono-alphabetic substitution: Polybe](polybe.md)
+- [ ] [GEDEFU](gedefu.md)
 - [ ] [Enigma machine](enigma.md)
 - [ ] [Poly-alphabetic substitution: One Time Pad](otp.md)
