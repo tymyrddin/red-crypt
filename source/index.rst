@@ -61,6 +61,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/ciphers/vigenere.md
    docs/ciphers/rail-fence.md
    docs/ciphers/polybe.md
+   docs/ciphers/gedefu.md
    docs/ciphers/enigma.md
    docs/ciphers/otp.md
 
@@ -73,6 +74,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/symmetric/README.md
    docs/symmetric/cbc-bit-flipping.md
    docs/symmetric/ecb.md
+   docs/symmetric/iv.md
    docs/symmetric/4-rounds.md
    docs/symmetric/ctr.md
    docs/symmetric/fault1.md
