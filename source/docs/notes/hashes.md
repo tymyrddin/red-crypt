@@ -83,37 +83,7 @@ from passlib.hash import sha512_crypt
 sha512_crypt.using(salt="ligE06T/QLQMANm9", rounds=5000).hash("password")
 ```
 
-This will be very, very, time-consuming.
-
-## Using hashcat
-
-[Hashcat](https://hashcat.net/hashcat/) comes pre-installed in Kali and Parrot OS. In addition to Hashcat, also download a wordlist like the [10-million-password-list-top-100.txt](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-100.txt) or [rockyou.txt](https://github.com/teamstealthsec/wordlists/blob/master/rockyou.txt.gz). It contains a list of commonly used passwords and is popular among pen testers. You can find the Rockyou wordlist under `/usr/share/wordlists` in Kali Linux.
-
-And the [mode](https://hashcat.net/wiki/doku.php?id=hashcat#options) (`-m`) for the type of hash.
-
-For example, the hash mode value for SHA1 is `100`, and for doing a dictionary attack (`-a 0`):
-
-    $ hashcat -m 100 -a 0 sha1.txt /usr/share/wordlists/rockyou.txt
-
-## Using John the Ripper
-
-While you can use popular wordlists like RockYou, [John the Ripper](https://www.openwall.com/john/) also has its own set of wordlists with thousands of common passwords. This makes John very effective when cracking systems with weak passwords.
-
-No mode needs to be entered. John recognises the hash type, generates hashes on the fly for all the passwords in the dictionary, and stops when a generated hash matches the current hash.
-
-If you are using Kali Linux, John is pre-installed.
-
-```text
-$ john --single --format=raw-sha1 crackthishash.txt
-```
-
-`crackthishash.txt` contains username and hash value of the password (separated by a colon).
-
-Dictionary attack:
-
-```text
-$ john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 crackthishash.txt
-```
+This will be very, very, time-consuming. You can also use [Hascat](red-testlab:docs/crypto/hashcat) or [John the Ripper](red-testlab:docs/crypto/john)
 
 ## RootMe challenges
 
