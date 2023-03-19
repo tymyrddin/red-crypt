@@ -4,7 +4,7 @@
 
 ## RootMe challenges
 
-* [Discrete logarithm problem](discrete-log.md)
-* [ECDHE](ecdhe.md)
-* [ECDSA: Conventional attack](ecdsa-conventional.md)
-* [ECDSA: Implementation error](ecdsa-error.md)
+* [Discrete logarithm problem](../ecc/discrete-log.md)
+* [ECDHE](../ecc/ecdhe.md)
+* [ECDSA: Conventional attack](../ecc/ecdsa-conventional.md)
+* [ECDSA: Implementation error](../ecc/ecdsa-error.md)
