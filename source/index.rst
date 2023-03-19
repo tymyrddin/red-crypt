@@ -154,6 +154,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :caption: Elliptic curve balls
 
    docs/ecc/README.md
+   docs/ecc/discrete-log.md
    docs/ecc/ecdhe.md
    docs/ecc/ecdsa-conventional.md
    docs/ecc/ecdsa-error.md
