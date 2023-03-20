@@ -94,17 +94,17 @@ encryption and decryption.
 
 ## RootMe challenges
 
-* [AES Electronic code book](../symmetric/ecb.md)
-* [AES 4 rounds](../symmetric/4-rounds.md)
-* [CBC Bit-flipping attack](../symmetric/cbc-bit-flipping.md)
-* [AES128 Counter mode attack](../symmetric/ctr.md)
-* [AES Fault attack #1](../symmetric/fault1.md)
-* [CBC padding attack](../symmetric/cbc-padding.md)
-* [Side channel AES: CPA](../symmetric/cpa.md)
-* [Side Channel AES: first round](../symmetric/sc-first-round.md)
-* [AES Weaker variant](../symmetric/weaker-variant.md)
-* [AES Fault attack #2](../symmetric/fault2.md)
-* [AES PMAC forgery attack](../symmetric/pmac.md)
+* [AES Electronic code book](../aes/ecb.md)
+* [AES 4 rounds](../aes/4-rounds.md)
+* [CBC Bit-flipping attack](../aes/cbc-bit-flipping.md)
+* [AES128 Counter mode attack](../aes/ctr.md)
+* [AES Fault attack #1](../aes/fault1.md)
+* [CBC padding attack](../aes/cbc-padding.md)
+* [Side channel AES: CPA](../aes/cpa.md)
+* [Side Channel AES: first round](../aes/sc-first-round.md)
+* [AES Weaker variant](../aes/weaker-variant.md)
+* [AES Fault attack #2](../aes/fault2.md)
+* [AES PMAC forgery attack](../aes/pmac.md)
 
 ## Security
 

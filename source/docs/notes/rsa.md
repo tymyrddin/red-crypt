@@ -94,17 +94,17 @@ A **low decryption exponent attack** is the result of a too low value of $d$ (sm
 
 ## RootMe challenges
 
-* [RSA Factorisation](../asymmetric/factorisation.md)
-* [RSA Decipher oracle](../asymmetric/oracle.md)
-* [RSA Corrupted key 1](../asymmetric/corrupted-key1.md)
-* [RSA Continued fractions](../asymmetric/fractions.md)
-* [RSA Common modulus](../asymmetric/modulus.md)
-* [RSA Padding](../asymmetric/padding.md)
-* [RSA Signature](../asymmetric/signature.md)
-* [RSA Corrupted key 2](../asymmetric/corrupted-key2.md)
-* [RSA Corrupted key 3](../asymmetric/corrupted-key3.md)
-* [RSA Multiple recipients](../asymmetric/multiple-recipients.md)
-* [RSA Lee cooper](../asymmetric/lee-cooper.md)
+* [RSA Factorisation](../rsa/factorisation.md)
+* [RSA Decipher oracle](../rsa/oracle.md)
+* [RSA Corrupted key 1](../rsa/corrupted-key1.md)
+* [RSA Continued fractions](../rsa/fractions.md)
+* [RSA Common modulus](../rsa/modulus.md)
+* [RSA Padding](../rsa/padding.md)
+* [RSA Signature](../rsa/signature.md)
+* [RSA Corrupted key 2](../rsa/corrupted-key2.md)
+* [RSA Corrupted key 3](../rsa/corrupted-key3.md)
+* [RSA Multiple recipients](../rsa/multiple-recipients.md)
+* [RSA Lee cooper](../rsa/lee-cooper.md)
 
 ## Remediations
 

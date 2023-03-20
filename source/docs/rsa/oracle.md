@@ -20,7 +20,7 @@ c = 4166241049490033597886572013392990002729748149314322302670411233999724742535
 
 ![RSA Oracle](../../_static/images/oracle2.png)
 
-4. Copy the resulting plaintext and use it to decrypt `n`
+4. Copy the resulting plaintext and use it to decrypt $n$
 
 ## Resources
 

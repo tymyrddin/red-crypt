@@ -78,19 +78,19 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :includehidden:
    :caption: AES busting
 
-   docs/symmetric/README.md
-   docs/symmetric/cbc-bit-flipping.md
-   docs/symmetric/ecb.md
-   docs/symmetric/iv.md
-   docs/symmetric/4-rounds.md
-   docs/symmetric/ctr.md
-   docs/symmetric/fault1.md
-   docs/symmetric/cbc-padding.md
-   docs/symmetric/cpa.md
-   docs/symmetric/sc-first-round.md
-   docs/symmetric/weaker-variant.md
-   docs/symmetric/fault2.md
-   docs/symmetric/pmac.md
+   docs/aes/README.md
+   docs/aes/cbc-bit-flipping.md
+   docs/aes/ecb.md
+   docs/aes/iv.md
+   docs/aes/4-rounds.md
+   docs/aes/ctr.md
+   docs/aes/fault1.md
+   docs/aes/cbc-padding.md
+   docs/aes/cpa.md
+   docs/aes/sc-first-round.md
+   docs/aes/weaker-variant.md
+   docs/aes/fault2.md
+   docs/aes/pmac.md
 
 .. toctree::
    :glob:
@@ -120,20 +120,20 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: RSApocalypses
+   :caption: RSA puzzling
 
-   docs/asymmetric/README.md
-   docs/asymmetric/factorisation.md
-   docs/asymmetric/oracle.md
-   docs/asymmetric/corrupted-key1.md
-   docs/asymmetric/fractions.md
-   docs/asymmetric/modulus.md
-   docs/asymmetric/padding.md
-   docs/asymmetric/signature.md
-   docs/asymmetric/corrupted-key2.md
-   docs/asymmetric/corrupted-key3.md
-   docs/asymmetric/multiple-recipients.md
-   docs/asymmetric/lee-cooper.md
+   docs/rsa/README.md
+   docs/rsa/factorisation.md
+   docs/rsa/oracle.md
+   docs/rsa/corrupted-key1.md
+   docs/rsa/fractions.md
+   docs/rsa/modulus.md
+   docs/rsa/padding.md
+   docs/rsa/signature.md
+   docs/rsa/corrupted-key2.md
+   docs/rsa/corrupted-key3.md
+   docs/rsa/multiple-recipients.md
+   docs/rsa/lee-cooper.md
 
 .. toctree::
    :maxdepth: 1
