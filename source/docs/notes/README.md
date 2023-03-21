@@ -20,5 +20,5 @@ Jump Off This Cliff and think about cryptographic security requirements.
 * [Hacking hashes](hashes.md)
 * [RSA puzzling](rsa.md)
 * [Diffie-Hellman](dh.md)
-* [Elliptic curve balls](ec.md)
+* [Elliptic curve balls](ecc.md)
 

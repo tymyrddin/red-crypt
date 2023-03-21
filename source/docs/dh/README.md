@@ -10,7 +10,7 @@ Diffie–Hellman schemes are only secure when their parameters are well-chosen.
 
 ## How?
 
-- [x] [Discrete logarithm problem](../dh/discrete-log.md)
+
 
 
 

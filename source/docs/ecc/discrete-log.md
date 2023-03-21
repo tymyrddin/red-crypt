@@ -2,7 +2,7 @@
 
 [RootMe challenge: Discrete logarithm problem](https://www.root-me.org/en/Challenges/Cryptanalysis/Discrete-logarithm-problem): What a pretty equation.
 
-Alice and Bob use the Discrete Logarithm problem in order to find securely a common session key.
+Alice and Bob use the Discrete Logarithm Problem in order to find securely a common session key.
 You have found Alice’s public key $(g, y, p)$, Now you have to find the private one x as :
 $y = g^x \mod p$
 

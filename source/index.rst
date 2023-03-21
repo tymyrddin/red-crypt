@@ -32,7 +32,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/notes/hashes.md
    docs/notes/rsa.md
    docs/notes/dh.md
-   docs/notes/ec.md
+   docs/notes/ecc.md
 
 ----
 
@@ -156,7 +156,6 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :caption: Diffie-Hellman
 
    docs/dh/README.md
-   docs/dh/discrete-log.md
 
 .. toctree::
    :glob:
@@ -165,6 +164,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :caption: Elliptic curve balls
 
    docs/ecc/README.md
+   docs/ecc/discrete-log.md
    docs/ecc/ecdhe.md
    docs/ecc/ecdsa-conventional.md
    docs/ecc/ecdsa-error.md

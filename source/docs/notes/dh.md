@@ -15,7 +15,7 @@ To ensure the highest security, safe DH parameters should work with a prime $p$ 
 
 The `dhparam` command of the OpenSSL toolkit will only generate safe DH parameters, but the extra checks built into the algorithm result increase the execution time considerably.
 
-## What can go wrong?
+## What can possibly go wrong?
 
 Diffie–Hellman protocols can fail spectacularly in a variety of ways.
 
@@ -23,7 +23,5 @@ Diffie–Hellman protocols can fail spectacularly in a variety of ways.
 * Using legacy Diffie–Hellman: The TLS protocol is the security behind HTTPS secure websites as well as the secure mail transfer protocol (SMTP). TLS takes several parameters, including the type of Diffie–Hellman protocol it will use, though most TLS implementations still support anonymous DH for legacy reasons, despite its insecurity.
 * Unsafe group parameters: In January 2016, the maintainers of the OpenSSL toolkit fixed a high-severity vulnerability ([CVE-2016-0701](https://nvd.nist.gov/vuln/detail/CVE-2016-0701)) that allowed an attacker to exploit unsafe Diffie–Hellman parameters. The root cause of the vulnerability was that OpenSSL allowed users to work with unsafe DH group parameters (namely, an unsafe prime p) instead of throwing an error and aborting the protocol altogether before performing any arithmetic operation.
 
-## RootMe challenges
 
-* [Discrete logarithm problem](../dh/discrete-log.md)
 
