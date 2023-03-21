@@ -20,4 +20,5 @@ Some hashing functions are better at satisfying these requirements than others. 
 - [x] [NT Hash](nt.md)
 - [x] [SHA-2 Hash](sha2.md)
 - [x] [CISCO Salted password](cisco.md)
+- [x] [Hash length extension attack](hash-length.md)
 - [ ] [SHA-3 Hash](sha3.md)
