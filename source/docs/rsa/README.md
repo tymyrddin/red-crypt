@@ -13,7 +13,7 @@ It is ubiquitous, but it is also subtle and easy to implement or use incorrectly
 - [x] [RSA Factorisation](factorisation.md)
 - [x] [RSA Decipher oracle](oracle.md)
 - [ ] [RSA Corrupted key 1](corrupted-key1.md)
-- [ ] [RSA Continued fractions](fractions.md)
+- [x] [RSA Continued fractions](fractions.md)
 - [x] [RSA Common modulus](modulus.md)
 - [ ] [RSA Padding](padding.md)
 - [ ] [RSA Signature](signature.md)

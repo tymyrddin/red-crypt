@@ -12,6 +12,71 @@ E = 0xf70b3bd74801a25eccbde24e01b077677e298391d4197b099a6f961244f04314da7de144dd
 N = 0x0207a7df9d173f5969ad16dc318496b36be39fe581207e6ea318d3bfbe22c8b485600ba9811a78decc6d5aab79a1c2c491eb6d4f39820657b6686391b85474172ae504f48f02f7ee3a2ab31fce1cf9c22f40e919965c7f67a8acbfa11ee4e7e2f3217bc9a054587500424d0806c0e759081651f6e406a9a642de6e8e131cb644a12e46573bd8246dc5e067d2a4f176fef6eec445bfa9db888a35257376e67109faabe39b0cf8afe2ca123da8314d09f2404922fc4116d682a4bdaeecb73f59c49db7fa12a7fc5c981454925c94e0b5472e02d924dad62c260066e07c7d3b1089d5475c2c066b7f94553c75e856e3a2a773c6c24d5ba64055eb8fea3e57b06b04a3
 ```
 
+Use continued fractions to calculate the private key, put it in a private ssh identity file, `chmod` it to `600` and log in:
+
+```text
+$ ssh -i .ssh/id_rsa -p 2221 cryptanalyse-ch24-cracked@challenge01.root-me.org
+Warning: Identity file .ssh/id_rsa not accessible: No such file or directory.
+      _           _ _                        ___  _ 
+  ___| |__   __ _| | | ___ _ __   __ _  ___ / _ \/ |
+ / __| '_ \ / _` | | |/ _ \ '_ \ / _` |/ _ \ | | | |
+| (__| | | | (_| | | |  __/ | | | (_| |  __/ |_| | |
+ \___|_| |_|\__,_|_|_|\___|_| |_|\__, |\___|\___/|_|
+                                 |___/ root-me.org  
+
+     
+                                     ██▒ ▒██░    
+                                 ░███░ █ █ ░███▒    
+                             ░███░        ▓     ███░    
+                           ▓█▓       ▓█░  ▓       ▓███    
+                         ██▒     ░▓█▓███  ▓   ██  █▒ ░██    
+                        ██  ███  ▒░       ▓░████░██    ▓█░    
+                       ██   ▒██      ███      ░▓██      ▒█    
+                      ██             ░█░      ░██        ▓█    
+                     ░█████████████    █     ██░          █▓    
+                     ██                 █ ░██             ██    
+                     ██      ░         ░██▓               ██    
+                     ██  ███    ░██▓░███                 ███    
+                     ▒█          ▓██▓                  ░████    
+                      █▓    ░████                    ░██ ▒█    
+                      ▓█████░                      ███ ███▓    
+                      ▓███                      █████░ ████    
+                       ▓█     ░██▓░         ▒████████░  ██    
+                       ▓█      ██░▒██████████████████░  ██    
+                       ▓█       ███▓██▒  ░██████████░   ██    
+                       ▓█                  ░████▒       ██    
+                        ░██▓           ▒█▓           ▒██░    
+                           ▒██░       ██ ▒█        ██▓    
+                              █▒                  █    
+                              █▒  ░█    █░   █▓   █    
+                              █████████████████████    
+     
+ ████████████▄                             ██    ███             ███    
+ ██          ██  ▄████████▄   ▄████████▄  ██████ ████           ████  ▄████████▄  
+ ██          ██ ██        ██ ██        ██  ██    ██  ██       ██  ██ ██        ██  
+ ████████████▀  ██        ██ ██        ██  ██    ██   ██     ██   ██ ████████████ 
+ ██    ███      ██        ██ ██        ██  ██    ██     ██ ██     ██ ██    
+ ██       ████   ▀████████▀   ▀████████▀   ██    ██       █       ██  ▀██████████ 
+
+
+------------------------------------------------------------------------------------------------
+    Welcome on challenge01    /
+-----------------------------‘
+
+/tmp and /var/tmp are writeable
+
+Useful commands available:
+    python, perl, gcc, netcat, gdb, gdb-peda, gdb-gef, ROPgadget, radare2, pwntools
+
+Attention:
+    Publishing solutions publicly (blog, github, youtube, etc.) is forbidden.
+    Publier des solutions publiquement (blog, github, youtube, etc.) est interdit.
+
+cryptanalyse-ch24-cracked@challenge01:~$ ls
+flag
+cryptanalyse-ch24-cracked@challenge01:~$ cat flag
+```
+
 ## Resources
 
 * [Continued Fractions - RSA](https://repository.root-me.org/Cryptographie/Asym%C3%A9trique/EN%20-%20Continued%20Fractions%20-%20RSA.pdf)
