@@ -3,10 +3,10 @@
 [RootMe challenge: Discrete logarithm problem](https://www.root-me.org/en/Challenges/Cryptanalysis/Discrete-logarithm-problem): What a pretty equation.
 
 Alice and Bob use the Discrete Logarithm problem in order to find securely a common session key.
-You have found Alice’s public key (g, y, p), Now you have to find the private one x as :
-y = g^x mod p
+You have found Alice’s public key $(g, y, p)$, Now you have to find the private one x as :
+$y = g^x \mod p$
 
-For information, p is a primer number of 522bits length and g is a primitive root modulo p.
+For information, $p$ is a prime number of 522 bits length and $g$ is a primitive root modulo $p$.
 
 For validating this challenge, you just have to input the value of x (also 522 bits wide).
 

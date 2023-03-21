@@ -11,7 +11,6 @@ This topic is filled with fiddly parameters, subtle pitfalls, and breathtaking l
 
 ## How?
 
-- [x] [Discrete logarithm problem](discrete-log.md)
 - [ ] [ECDHE](ecdhe.md)
 - [ ] [ECDSA: Conventional attack](ecdsa-conventional.md)
 - [ ] [ECDSA: Implementation error](ecdsa-error.md)

@@ -31,6 +31,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/notes/stream.md
    docs/notes/hashes.md
    docs/notes/rsa.md
+   docs/notes/dh.md
    docs/notes/ec.md
 
 ----
@@ -114,6 +115,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    docs/hashes/nt.md
    docs/hashes/sha2.md
    docs/hashes/cisco.md
+   docs/hashes/hash-length.md
    docs/hashes/sha3.md
 
 .. toctree::
@@ -151,10 +153,18 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Diffie-Hellman
+
+   docs/dh/README.md
+   docs/dh/discrete-log.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Elliptic curve balls
 
    docs/ecc/README.md
-   docs/ecc/discrete-log.md
    docs/ecc/ecdhe.md
    docs/ecc/ecdsa-conventional.md
    docs/ecc/ecdsa-error.md

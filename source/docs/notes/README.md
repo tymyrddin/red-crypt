@@ -19,5 +19,6 @@ Jump Off This Cliff and think about cryptographic security requirements.
 * [Down stream](stream.md)
 * [Hacking hashes](hashes.md)
 * [RSA puzzling](rsa.md)
+* [Diffie-Hellman](dh.md)
 * [Elliptic curve balls](ec.md)
 
