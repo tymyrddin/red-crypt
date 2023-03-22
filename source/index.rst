@@ -1,4 +1,4 @@
-Beyond the visible
+Beyond the readable
 ==============================================
 
 Come backstage with us to discover what is usually not seen concerning encoded and encrypted data in rest, underway, and in use. Witness the strategic decisions, the designing of algorithms, the complex implementations, the innovative (yet old and not really changing) technological solutions, the endless resources invested into research and development of security and privacy ... and everything that isn't, and everything that is, but gets hacked.

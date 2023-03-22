@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Beyond the visible'
+project = 'Beyond the readable'
 copyright = '2022, Ty Myrddin'
 author = 'Ty Myrddin'
 release = '0.1'
@@ -54,7 +54,7 @@ html_theme_options = {
     'titles_only': False
 }
 
-html_title = "Beyond the visible"
+html_title = "Beyond the readable"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 
