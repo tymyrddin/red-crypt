@@ -11,9 +11,9 @@ Come backstage with us to discover what is usually not seen concerning encoded a
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Preparation
+   :caption: Testlab
 
-   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/crypto/README.html>
+   Cryptanalysis tools <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/crypto/README.html>
 
 .. toctree::
    :glob:
