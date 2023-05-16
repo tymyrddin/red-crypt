@@ -13,7 +13,7 @@ Come backstage with us to discover what is usually not seen concerning encoded a
    :includehidden:
    :caption: Testlab
 
-   Cryptanalysis tools <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/crypto/README.html>
+   Cryptanalysis tools <https://testlab.tymyrddin.dev/docs/crypto/README>
 
 .. toctree::
    :glob:
