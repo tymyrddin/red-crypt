@@ -171,5 +171,41 @@ Come backstage with us to discover what is usually not seen concerning encoded a
 
 ----
 
-.. image:: _static/images/books.png
-  :alt: Useful books
+Books
+---------------------------
+
+.. grid:: 3
+    :gutter: 1
+
+    .. grid-item-card::
+        :link: https://nostarch.com/seriouscrypto
+
+        .. image:: _static/images/bookcovers/serious-crypto.png
+
+    .. grid-item-card::
+        :link: https://www.manning.com/books/real-world-cryptography
+
+        .. image:: _static/images/bookcovers/real-world-crypto.png
+
+    .. grid-item-card::
+        :link: https://link.springer.com/book/10.1007/978-3-030-63115-4
+
+        .. image:: _static/images/bookcovers/modern-cryptography.png
+
+.. grid:: 3
+    :gutter: 1
+
+    .. grid-item-card::
+        :link: https://link.springer.com/book/10.1007/978-1-4842-4900-0
+
+        .. image:: _static/images/bookcovers/practical-crypto-python.png
+
+    .. grid-item-card::
+        :link: https://link.springer.com/book/10.1007/978-1-4842-6570-3
+
+        .. image:: _static/images/bookcovers/authentication-access-crypto.png
+
+    .. grid-item-card::
+        :link: https://us.macmillan.com/books/9781250865847/red-team-blues
+
+        .. image:: _static/images/bookcovers/red-team-blues.png
