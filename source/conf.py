@@ -77,14 +77,6 @@ html_show_sphinx = False
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 html_show_copyright = False
 
-
-# Intersphinx
-intersphinx_mapping = {
-    'red': ('https://red.tymyrddin.dev/', None),
-    'red-ad': ('https://ad.tymyrddin.dev/', None),
-    'red-testlab': ('https://testlab.tymyrddin.dev/', None),
-}
-
 myst_url_schemes = ["http", "https", ]
 
 myst_enable_extensions = [
